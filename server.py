@@ -26,7 +26,7 @@ class S(BaseHTTPRequestHandler):
             body = dynamic_map[api_name](query)
         else:
             logging.warning("Unknown API: %s", api_name)
-            self.send_response(404)
+            self.send_response(410)
             self.end_headers()
             self.wfile.write(b"")
             return
