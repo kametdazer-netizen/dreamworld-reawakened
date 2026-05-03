@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data locale="ja">
-    <string id="lo_a_1">lo_a_1</string>
-	<string id="op_b_2">Skip the movie.</string>
+    <string id="lo_a_1">Loading...</string>
+	<string id="op_b_1">Welcome to the Pokémon Dream World.</string>
+    <string id="op_b_2">Skip the movie.</string>
 </data>

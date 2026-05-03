@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data locale="ja">
-    <string id="lo_a_1">lo_a_1</string>
+    <string id="lo_a_1">Loading.../string>
+
+    <!--Tree of Dreams Meter-->
+    <string id="y_aa_1">Tree of Dreams</string>
+    <string id="y_za_3">Twee of Dweams</string>
+    
+
+
+    <!--I wanna see if these come up anywhere-->
+    <string id="y_aa_5">Test1</string>
+    <string id="y_aa_6">Test2</string>
+    <string id="y_aa_7">Test3</string>
+    <string id="y_aa_8">Test4</string>
+    <string id="y_aa_9">Test5</string>
+    <string id="y_aa_10">Test6</string>
+    <string id="y_aa_11">Test7</string>
+    <string id="y_aa_12">Test8</string>
+    <string id="y_aa_13">Test9</string>
+    <string id="y_aa_14">Test10</string>
+    <string id="y_aa_15">Test11</string>
+
+    <!--Tree of Dreams Location-->
+    <string id="t_aa_1">Tree of Dreams</string>
+    <string id="s_aa_2">Return to your home.</string>
+
+    <!--Island Titles-->
+    <string id="y_za_1">You arrive at the Island of Dreams and decide to explore the Pleasant Forest</string>
+    <string id="y_aa_3">Island of Dreams—Pleasant Forest</string>
+
+    <string id="y_zc_3">You arrive at the Island of Dreams and decide to explore the Windswept Sky</string>
+    <string id="y_aa_5">Island of Dreams—Windswept Sky</string>
+
+    <string id="y_zb_2">You arrive at the Island of Dreams and decide to explore the Sparkling Sea</string>
+    <string id="y_aa_4">Island of Dreams—Sparkling Sea</string>
+
+    <string id="y_zc_4">You arrive at the Island of Dreams and decide to explore the Spooky Manor</string>
+    <string id="y_aa_16">Island of Dreams—Spooky Manor</string>
+
+    <string id="y_zc_5">ou arrive at the Island of Dreams and decide to explore the Rugged Mountain</string>
+    <string id="y_aa_17">Island of Dreams—Rugged Mountain</string>
+
+    <string id="y_zc_6">You arrive at the Island of Dreams and decide to explore the Icy Cave</string>
+    <string id="y_aa_18">Island of Dreams—Icy Cave</string>
+
+    <string id="y_zc_7">You arrive at the Island of Dreams and decide to explore the Dream Park</string>
+    <string id="y_aa_19">Island of Dreams—Dream Park</string>
+
 </data>

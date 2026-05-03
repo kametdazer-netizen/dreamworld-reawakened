@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data locale="en">
+
+    <!--Your Home-->
+    <string id="h_ca_1">PlayerName's home</string> <!--Title when entering area-->
+    <string id="h_ca_7">Enter room.</string> <!--Door hover-->
+    <string id="h_ca_8">Footprint Mat</string> <!--Mat hover-->
+    <string id="fr_aa_6">Check Dream Pal map.</string>
+    <string id="h_ca_2">Check Footprint Mat.</string>
+    <string id="fr_aa_4">Enter room.</string>
+
+    <!--Footprint Mat-->
+    <string id="m_aa_1">Footprint</string> <!--Title when looking at mat-->
+    <string id="m_aa_2">See more</string>
+    <string id="m_af_2">Check mat</string>
+    <string id="m_af_3">See who visited.</string>
+    <string id="m_af_4">Date</string>
+    <string id="m_af_5">Pokémon</string>
+    <string id="m_af_6">Pokémon's Nickname</string>
+    <string id="m_af_7">Type</string>
+    <string id="m_af_8">Action</string>
+
+    <!--Garden-->
+    <string id="k_ad_1">PlayerName's garden</string> 
+
+    <!--Share Shelf-->
+    <string id="s_aa_1">PlayerName's Share Shelf</string>
+
+    <!--Dream Bridge -->
+    <string id="h_cb_1">Return to your home.</string> <!--Used for the buttons in the top left-->
+    <string id="h_cb_2">Dream Bridge</string>
+    <string id="h_cb_3">Go to the Island of Dreams.</string> <!--Used for the buttons in the top left-->
+    <string id="h_cc_1">Go to the Island of Dreams?</string>
+    <string id="h_cc_2">Yes</string>
+    <string id="h_cc_3">No</string>
+    <string id="h_cc_4">Go to the Island of Dreams.</string> <!--Used for the up arrow and rainbow bridge-->
+
+    <!--Left and Right Arrows-->
+    <string id="h_ha_1">Home</string>
+    <string id="h_ha_2">Dream Bridge</string>
+    <string id="h_ca_6">Share Shelf</string>
+    <string id="h_ca_5">Garden</string>
+
+    <!--Buttons In Top Right-->
+    <string id="h_ca_9">Check info.</string>
+    <string id="h_ca_10">Leave the Pokémon Dream World.</string>
+    
+    <!--No idea tbh-->
     <string id="dialog_32">dialog_32</string>
+    <string id="dialog_35">Close</string>
     <string id="fr_aa_1">fr_aa_1</string>
     <string id="fr_aa_2">fr_aa_2</string>
     <string id="fr_aa_3">fr_aa_3</string>
-    <string id="fr_aa_4">Enter room.</string>
     <string id="fr_aa_5">fr_aa_5</string>
-    <string id="fr_aa_6">Check Dream Pal map.</string>
-    <string id="h_ca_1">PlayerName's Home</string>
-    <string id="h_ca_2">Check Footprint Mat.</string>
     <string id="h_ca_3">h_ca_3</string>
     <string id="h_ca_4">h_ca_4</string>
-    <string id="h_ca_5">Garden</string>
-    <string id="h_ca_6">Share Shelf</string>
-    <string id="h_ha_1">h_ha_1</string>
-    <string id="h_ha_2">Dream Bridge</string>
+
+   
 </data>
