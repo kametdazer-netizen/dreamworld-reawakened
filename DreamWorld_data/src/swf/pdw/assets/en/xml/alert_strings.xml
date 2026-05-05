@@ -33,4 +33,10 @@
 
 	<!--Leave and stay asleep submenu-->
 	<string id="o_az_1">You have left the Pokémon Dream World.</string>
+
+	<!--Fennel at startup-->
+	<string id="pg_amh_1">Welcome to the Pokémon Dream World.</string>
+	<string id="pg_amh_2">You can play in the Pokémon DW for one hour.</string>
+	<string id="pg_amh_3">You can only play for an hour in the Pokémon Dream World, then it&#xD;stops automatically. It's a good idea to stop playing and save your data&#xD;when asked, so you can be sure your data gets saved properly.</string>
+	<string id="pg_amh_4">Continue</string>
 </data>

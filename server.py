@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlsplit, parse_qs
+from html import escape
 
 import logging
 from pathlib import Path
@@ -17,6 +18,7 @@ from api_handlers import (
 # ---------------
 
 DEBUG = False  # Set via --debug flag at startup
+ROOT_DIR = Path(__file__).resolve().parent
 
 class S(BaseHTTPRequestHandler):
 
@@ -45,9 +47,9 @@ class S(BaseHTTPRequestHandler):
 
     def do_GET(self):
         logging.info("GET %s", self.path)
-        parsed = urlparse(self.path)
-        path = parsed.path
-        
+        parsed = urlsplit(self.path)
+        path = escape(parsed.path)
+
         if path == "/api/":
             query = parse_qs(parsed.query, strict_parsing=True)
             api_name = query["p"][0]
@@ -56,29 +58,26 @@ class S(BaseHTTPRequestHandler):
             return
 
         if path == "/":
-            if self.headers.get("User-Agent") == "Shockwave Flash":
-                self.send_response(302)
-                self.send_header("Location", "http://127.0.0.1:8080/DreamWorld_data/src/swf/theme/assets/common/main.swf")
-                self.end_headers()
-                return
-
-            with open(Path("Dream_Park.htm"), "rb") as f:
+            with open(Path(ROOT_DIR / "DreamWorld_data" / "Dream_Park.htm"), "rb") as f:
                 data = f.read()
+            
             self.send_response(200)
             self.send_header("Content-Length", str(len(data)))
             self.end_headers()
             self.wfile.write(data)
             return
 
-        # Strip bugged trailing &s that PDW sometimes adds
-        if "&" in path:
-            path = path.split("&")[0]
-
-        file_path = Path(".") / path.lstrip("/")
+        if "flash" not in self.headers.get("User-Agent").lower():
+            file_path = ROOT_DIR / "DreamWorld_data" / path.lstrip("/")
+        else:
+            file_path = ROOT_DIR / path.lstrip("/")
+        
         if file_path.is_file():
             self._log_referrer(file_path)
+            
             with open(file_path, "rb") as f:
                 data = f.read()
+            
             self.send_response(200)
             self.send_header("Content-Length", str(len(data)))
             self.end_headers()
@@ -110,22 +109,12 @@ def run(server_class=HTTPServer, handler_class=S, port=8080, debug=False):
     DEBUG = debug
     log_level = logging.DEBUG if debug else logging.INFO
     logging.basicConfig(level=log_level)
-    server_address = ('127.0.0.1', port)
+    server_address = ("127.0.0.1", port)
     httpd = server_class(server_address, handler_class)
-    logging.info('Starting server%s...\n', ' (debug mode)' if debug else '')
+    logging.info("Starting server%s...\n", " (debug mode)" if debug else "")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         pass
     httpd.server_close()
-    logging.info('Stopping server...\n')
-
-if __name__ == '__main__':
-    import argparse
-
-    parser = argparse.ArgumentParser(description='Dream Park HTTP server')
-    parser.add_argument('port', nargs='?', type=int, default=8080, help='Port to listen on (default: 8080)')
-    parser.add_argument('--debug', action='store_true', help='Log referrer for every file request')
-    args = parser.parse_args()
-
-    run(port=args.port, debug=args.debug)
+    logging.info("Stopping server...\n")

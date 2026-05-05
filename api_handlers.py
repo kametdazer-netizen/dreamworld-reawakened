@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time
 import json
 import logging
@@ -5,22 +6,39 @@ from random import randint
 from random import choice
 from pathlib import Path
 
-ROOT_PATH = Path(__file__).resolve().parent
+# --------------------
+# Pokemon related data
+# --------------------
 
-with open(ROOT_PATH / "json_data" / "items.json") as f:
-	item_info = json.load(f)
+ROOT_DIR = Path(__file__).resolve().parent
 
-with open(ROOT_PATH / "json_data" / "pokemon.json") as f:
-	pokemon_info = json.load(f)
+with open(ROOT_DIR / "json_data" / "player_data.json") as f:
+    player_data = json.load(f)
+
+with open(ROOT_DIR / "json_data" / "items.json") as f:
+    item_info = json.load(f)
+
+with open(ROOT_DIR / "json_data" / "pokemon.json") as f:
+    pokemon_info = json.load(f)
 
 pokemon_natures = ("Adamant","Bashful","Bold","Brave","Calm","Careful","Docile","Gentle","Hardy","Hasty","Impish","Jolly","Lax","Lonely","Mild","Modest","Naive","Naughty","Quiet","Quirky","Rash","Relaxed","Sassy","Serious","Timid")
+
+# --------------------
+# Helper functions
+# --------------------
+
+def get_random_pokemon() -> dict[str: str|None]:
+    pkmn = choice(list(pokemon_info.keys()))
+    natdex = pkmn.split("-")[0]
+
+    return {**pokemon_info[pkmn], "natdex": natdex}
 
 # --------------------
 # Static API responses
 # --------------------
 
 STATIC_GET_RESPONSES = {
-    "pgl.news.information_list":   b'{"list":[], "total_count":0}',
+    "pgl.news.information_list":   b"{\"list\":[], \"total_count\":0}",
     "pgl.member.profile.my_state": b"{}",
     "pgl.top.init":                b"{}",
     "pdw.home.my_bridge":          b"{}",
@@ -84,17 +102,14 @@ def handle_waterpot_list_GET(_query):
 def handle_dreamland_top(_query):
     object_list = []
     for _ in range(10):
-        pkmn = choice(list(pokemon_info.keys()))
-        natdex = pkmn.split("-")[0]
-        
-        pkmn = pokemon_info[pkmn]
+        pkmn = get_random_pokemon()
         
         object_list.append(
             {
             "object_id": randint(1, 1000),
             "object_category": randint(0, 1), # 0 - Pokemon, 1 - Pokemon Stay, 2 - Item
             "pokemon": {
-                "pokemon_no": natdex,
+                "pokemon_no": pkmn["natdex"],
                 "form_no": pkmn.get("form_no", None),
                 "pokename": pkmn["pokemon"]
             },
@@ -120,13 +135,10 @@ def handle_dreamland_tree_top(_query):
     encount_list = []
     
     for _ in range(count):
-        pkmn = choice(list(pokemon_info.keys()))
-        natdex = pkmn.split("-")[0]
-        
-        pkmn = pokemon_info[pkmn]
+        pkmn = get_random_pokemon()
 
         pokemon_list.append({
-            "pokemon_no":        natdex,
+            "pokemon_no":        pkmn["natdex"],
             "form_no":           pkmn.get("form_no", None),
             "pgl_name":          "PGLName",
             "member_savedata_id": 123,
@@ -151,7 +163,7 @@ def handle_dreamland_tree_top(_query):
 
 
 def handle_item_list(_query):
-    '''Loads random items into the Treasure Chest'''
+    """Loads random items into the Treasure Chest"""
     item_list = []
     for _ in range(randint(1, 10)):
         item_id = choice(list(item_info.keys()))
@@ -171,24 +183,21 @@ def handle_item_list(_query):
 
 
 def handle_my_island(_query):
-    pkmn = choice(list(pokemon_info.keys()))
-    natdex = pkmn.split("-")[0]
-    
-    pkmn = pokemon_info[pkmn]
+    #pkmn = get_random_pokemon()
 
     response = {
         "pokemon": {
-            "pokemon_no":        natdex,
-            "pokemon_name":      pkmn["pokemon"],
-            "form_no":           pkmn.get("form_no", None),
-            "type1":             pkmn["type1"],
-            "type2":             pkmn["type2"],
+            "pokemon_no":        player_data["member"]["pokemon_no"],
+            "pokemon_name":      player_data["member"]["pokemon_name"],
+            "form_no":           player_data["member"]["form_no"],
+            "type1":             player_data["member"]["type1"],
+            "type2":             player_data["member"]["type2"],
             "pokemon_nickname":  None,
-            "oyaname":           "PlayerName",
+            "oyaname":           player_data["member"]["alter_rom_name"],
             "level":             randint(1, 100),
             "sex":               randint(0, 1),
             "personality":       choice(pokemon_natures),
-            "place":             "PlayerName's Island",
+            "place":             "PlayerName\"s Island",
             "ball_name":         "Poke Ball"
         },
         "island_id":               201,
