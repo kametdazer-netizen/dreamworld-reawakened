@@ -3,11 +3,14 @@ import json
 import logging
 from random import randint
 from random import choice
+from pathlib import Path
 
-with open("./json_data/items.json") as f:
+ROOT_PATH = Path(__file__).resolve().parent
+
+with open(ROOT_PATH / "json_data" / "items.json") as f:
 	item_info = json.load(f)
 
-with open("./json_data/pokemon.json") as f:
+with open(ROOT_PATH / "json_data" / "pokemon.json") as f:
 	pokemon_info = json.load(f)
 
 pokemon_natures = ("Adamant","Bashful","Bold","Brave","Calm","Careful","Docile","Gentle","Hardy","Hasty","Impish","Jolly","Lax","Lonely","Mild","Modest","Naive","Naughty","Quiet","Quirky","Rash","Relaxed","Sassy","Serious","Timid")
