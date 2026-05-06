@@ -301,6 +301,7 @@
 		<bgm5>1.0</bgm5>
 		<bgm6>1.0</bgm6>
 		<bgm7>1.0</bgm7>
+        <bgm8>1.0</bgm8>
 		<bgm50>1.0</bgm50>
 		<bgm51>1.0</bgm51>
 		<bgm52>1.0</bgm52>
@@ -308,6 +309,9 @@
 		<template4>1.0</template4>
 		<template5>1.0</template5>
 		<template6>1.0</template6>
+        <template7>1.0</template7>
+        <template8>1.0</template8>
+        <template9>1.0</template9>
 		<template50>1.0</template50>
 		<template51>2.0</template51>
 		<template52>1.0</template52>
