@@ -17,13 +17,17 @@ from api_handlers import (
 # Request handler
 # ---------------
 
-DEBUG = False  # Set via --debug flag at startup
 ROOT_DIR = Path(__file__).resolve().parent
 
 class S(BaseHTTPRequestHandler):
 
     def _dispatch_api(self, api_name, query, static_map, dynamic_map):
         """Look up api_name in the dispatch tables and write the response."""
+        
+        query["is_random"] = False
+        if self.server.app_config["is_random"]:
+            query["is_random"] = True
+
         if api_name in static_map:
             body = static_map[api_name]
         elif api_name in dynamic_map:
@@ -41,7 +45,7 @@ class S(BaseHTTPRequestHandler):
 
     def _log_referrer(self, file_path):
         """In debug mode, log the Referer header."""
-        if DEBUG:
+        if self.server.app_config["debug"]:
             referrer = self.headers.get("Referer", "<no referrer>")
             logging.debug("[DEBUG] File requested: %s  |  Referer: %s", file_path, referrer)
 
@@ -104,17 +108,26 @@ class S(BaseHTTPRequestHandler):
 # Server start
 # ------------
 
-def run(server_class=HTTPServer, handler_class=S, port=8080, debug=False):
-    global DEBUG
-    DEBUG = debug
-    log_level = logging.DEBUG if debug else logging.INFO
-    logging.basicConfig(level=log_level)
+def run(server_class=HTTPServer, handler_class=S, port=8080, debug=False, is_random=False):
+    
     server_address = ("127.0.0.1", port)
     httpd = server_class(server_address, handler_class)
-    logging.info("Starting server%s...\n", " (debug mode)" if debug else "")
+
+    httpd.app_config = {
+        "debug": debug,
+        "is_random": is_random
+    }
+
+    log_level = logging.DEBUG if httpd.app_config["debug"] else logging.INFO
+    
+    logging.basicConfig(level=log_level)
+    logging.info("Starting server%s...\n", " (debug mode)" if httpd.app_config["debug"] else "")
+    
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         pass
+    
     httpd.server_close()
+    
     logging.info("Stopping server...\n")

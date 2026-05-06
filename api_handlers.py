@@ -31,7 +31,7 @@ def get_random_pokemon() -> dict[str: str|None]:
     pkmn = choice(list(pokemon_info.keys()))
     natdex = pkmn.split("-")[0]
 
-    return {**pokemon_info[pkmn], "natdex": natdex}
+    return {**pokemon_info[pkmn], "pokemon_no": natdex}
 
 # --------------------
 # Static API responses
@@ -109,9 +109,9 @@ def handle_dreamland_top(_query):
             "object_id": randint(1, 1000),
             "object_category": randint(0, 1), # 0 - Pokemon, 1 - Pokemon Stay, 2 - Item
             "pokemon": {
-                "pokemon_no": pkmn["natdex"],
+                "pokemon_no": pkmn["pokemon_no"],
                 "form_no": pkmn.get("form_no", None),
-                "pokename": pkmn["pokemon"]
+                "pokename": pkmn["pokemon_name"]
             },
             "minigame_id": choice([3, 4, 6, 8, 9, 10, 12]),
             "kinomi_id": 0,
@@ -138,12 +138,12 @@ def handle_dreamland_tree_top(_query):
         pkmn = get_random_pokemon()
 
         pokemon_list.append({
-            "pokemon_no":        pkmn["natdex"],
+            "pokemon_no":        pkmn["pokemon_no"],
             "form_no":           pkmn.get("form_no", None),
             "pgl_name":          "PGLName",
             "member_savedata_id": 123,
             "nickname":          None,
-            "pokename":          pkmn["pokemon"],
+            "pokename":          pkmn["pokemon_name"],
             "oyaname":           "PlayerName",
             "level":             randint(1, 100),
             "type1":             pkmn["type1"],
@@ -183,17 +183,20 @@ def handle_item_list(_query):
 
 
 def handle_my_island(_query):
-    #pkmn = get_random_pokemon()
+    if _query["is_random"]:
+        pkmn = get_random_pokemon()
+    else:
+        pkmn = player_data["member"]
 
     response = {
         "pokemon": {
-            "pokemon_no":        player_data["member"]["pokemon_no"],
-            "pokemon_name":      player_data["member"]["pokemon_name"],
-            "form_no":           player_data["member"]["form_no"],
-            "type1":             player_data["member"]["type1"],
-            "type2":             player_data["member"]["type2"],
+            "pokemon_no":        pkmn["pokemon_no"],
+            "pokemon_name":      pkmn["pokemon_name"],
+            "form_no":           pkmn.get("form_no", "0"),
+            "type1":             pkmn["type1"],
+            "type2":             pkmn["type2"],
             "pokemon_nickname":  None,
-            "oyaname":           player_data["member"]["alter_rom_name"],
+            "oyaname":           pkmn.get("alter_rom_name", player_data["member"]["pgl_name"]),
             "level":             randint(1, 100),
             "sex":               randint(0, 1),
             "personality":       choice(pokemon_natures),

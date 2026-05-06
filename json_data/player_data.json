@@ -1,7 +1,7 @@
 {
   "member": {
     "member_id": "5177698",
-    "pgl_name": "minibug",
+    "pgl_name": "PlayerName",
     "country_id": "220",
     "special_flag": "0",
     "bridge_flag": "0",
@@ -23,7 +23,7 @@
     "trial_flag": "0",
     "sleeping_flag": "1",
     "rom_id": 23,
-    "pokemon_no": "243",
+    "pokemon_no": "1",
     "form_no": "0",
     "player_badge_num": "8",
     "last_started_at": "1778015409",
@@ -45,7 +45,7 @@
     "last_up_time": "05/05/26 11:10 PM",
     "last_up_time_strict": "2026-05-05 23:10:09",
     "rom_name": "Pokémon Black Version 2",
-    "alter_rom_name": "minibug",
+    "alter_rom_name": "PlayerName",
     "pokemon_name": "Raikou",
     "type1": "Electric",
     "type2": null,

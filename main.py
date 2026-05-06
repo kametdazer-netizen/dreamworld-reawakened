@@ -48,9 +48,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Dream Park HTTP server")
     parser.add_argument("port", nargs="?", type=int, default=8080)
     parser.add_argument("--debug", action="store_true")
+    parser.add_argument("--random", action="store_true", default=False)
     parser.add_argument("--run-webpage", default=False)
     args = parser.parse_args()
 
     if args.run_webpage:
         inject_htm_playerdata()
-    run(port=args.port, debug=args.debug)
+    run(port=args.port, debug=args.debug, is_random=args.random)
