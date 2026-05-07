@@ -115,7 +115,7 @@ def handle_dreamland_top(_query):
                 "form_no": pkmn.get("form_no", "0"),
                 "pokename": pkmn["pokemon_name"]
             },
-            "minigame_id": choice([3, 4, 6, 8, 9, 10, 12]),
+            "minigame_id": choice([2, 3, 4, 6, 8, 9, 10, 12]),
             "kinomi_id": 0,
             "kinomi_count": 0,
             "pokeitem_id": 0,
