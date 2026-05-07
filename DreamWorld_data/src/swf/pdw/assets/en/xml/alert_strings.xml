@@ -39,4 +39,8 @@
 	<string id="pg_amh_2">You can play in the Pokémon DW for one hour.</string>
 	<string id="pg_amh_3">You can only play for an hour in the Pokémon Dream World, then it&#xD;stops automatically. It's a good idea to stop playing and save your data&#xD;when asked, so you can be sure your data gets saved properly.</string>
 	<string id="pg_amh_4">Continue</string>
+
+	<!--AFK Pop-Up box - I have zero clue what the official text is-->
+	<string id="pg_amf_1">You have been logged off due to inactivity.</string>
+	<string id="pg_ay_2">OK</string>
 </data>
