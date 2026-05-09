@@ -232,7 +232,7 @@ def handle_dreamland_top(_query):
                 "pokemon_no":  pkmn["pokemon_no"],
                 "form_no":     pkmn.get("form_no", "0"),
                 "pokename":    pkmn["pokemon_name"],
-                "gender_id":   str(gender_id),
+                "sex_id":      str(gender_id),
                 "action_type": "1",
                 "type1":       pkmn["type1"],
                 "type2":       pkmn.get("type2", ""),
@@ -304,7 +304,7 @@ def handle_dreamland_tree_top(_query):
             "level":             randint(1, 100),
             "type1":             pkmn["type1"],
             "type2":             pkmn["type2"],
-            "gender_id":         0,
+            "sex_id":            0,
             "pokekaku":          choice(pokemon_natures),
             "pokeplace":         "Route 1",
             "ball_name":         "Poke Ball"
