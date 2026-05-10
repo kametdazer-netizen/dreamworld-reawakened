@@ -57,13 +57,15 @@
     <string id="y_af_4">Type:</string>
     <string id="y_af_5">Gender:</string>
     <string id="y_af_6">Learned moves:</string>
+    
     <string id="y_af_7">[ポケモン名] looks happy.</string>
+
+    <!-- universal failure message -->
+    <string id="y_ag_9">y_ag_9</string> 
+    <string id="y_ah_1">y_ah_1</string> 
 
     <!-- game header -->
     <string id="y_ad_1">It's [ポケモン名]!</string>
-
-    <!-- The Pokemon left, I think. Only happens after abort, not refusal-->
-    <string id="y_ag_6">y_ah_1</string>
 
     <!-- game1.swf -->
     <string id="y_ad_10">[ポケモン名] seems to be searching for a hidden Pokémon.</string>

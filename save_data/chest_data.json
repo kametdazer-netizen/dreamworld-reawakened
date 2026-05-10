@@ -7,7 +7,10 @@
       "item_cnt": "57",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-02"
+      "date": "2026-05-02",
+      "field_line1": "A Pokémon held item that promotes",
+      "field_line2": "Defense gain on leveling, but reduces",
+      "field_line3": "the Speed stat."
     },
     {
       "pokeitem_id": 305,
@@ -15,7 +18,10 @@
       "item_cnt": "68",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-02"
+      "date": "2026-05-02",
+      "field_line1": "An item to be held by a Pokémon.",
+      "field_line2": "It is a stone tablet that boosts the",
+      "field_line3": "power of Ground-type moves."
     },
     {
       "pokeitem_id": 538,
@@ -23,7 +29,10 @@
       "item_cnt": "26",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-01"
+      "date": "2026-05-01",
+      "field_line1": "A mysterious evolutionary lump. When",
+      "field_line2": "held, it raises the Defense and Sp. Def",
+      "field_line3": "of a Pokémon that can still evolve."
     },
     {
       "pokeitem_id": 106,
@@ -31,7 +40,10 @@
       "item_cnt": "29",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-03"
+      "date": "2026-05-03",
+      "field_line1": "A bone that is extremely valuable for",
+      "field_line2": "Pokémon archeology. It can be sold",
+      "field_line3": "for a high price to shops."
     },
     {
       "pokeitem_id": 54,
@@ -39,7 +51,10 @@
       "item_cnt": "83",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-01"
+      "date": "2026-05-01",
+      "field_line1": "Old Chateau's hidden specialty.",
+      "field_line2": "It heals all the status problems of a",
+      "field_line3": "single Pokémon."
     },
     {
       "pokeitem_id": 200,
@@ -47,7 +62,10 @@
       "item_cnt": "89",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-03"
+      "date": "2026-05-03",
+      "field_line1": "Weakens a Normal-type attack against",
+      "field_line2": "the Pokémon holding this berry.",
+      "field_line3": null
     },
     {
       "pokeitem_id": 194,
@@ -55,7 +73,10 @@
       "item_cnt": "35",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-03"
+      "date": "2026-05-03",
+      "field_line1": "Weakens a supereffective Bug-type",
+      "field_line2": "attack against the holding Pokémon.",
+      "field_line3": null
     },
     {
       "pokeitem_id": 156,
@@ -63,7 +84,10 @@
       "item_cnt": "45",
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-03"
+      "date": "2026-05-03",
+      "field_line1": "If held by a Pokémon,",
+      "field_line2": "it recovers from confusion.",
+      "field_line3": null
     }
   ]
 }

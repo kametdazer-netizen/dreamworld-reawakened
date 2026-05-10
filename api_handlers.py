@@ -64,9 +64,9 @@ def handle_item_list(_query):
     item_kind_id = int(_query.get("item_kind_id", [0])[0])
     sort_key = int(_query.get("sort_key", [3])[0])
 
-    if item_kind_id == 0:
+    if item_kind_id == 0: #all items
         item_list = chest_data["list"]
-    elif item_kind_id == 1:
+    elif item_kind_id == 1: #only berries
         item_list = [item for item in chest_data["list"] if int(item["pokeitem_id"]) in range(149, 213)]
 
     if sort_key == 1: #date
@@ -141,7 +141,7 @@ def handle_footprint_list(_query):
 
 def handle_kinomi_sowing(_query):
     my_croft_id = int(_query.get("my_croft_id")[0])
-    pokeitem_id = int(_query.get("pokeitem_id")[0])
+    pokeitem_id = _query.get("pokeitem_id")[0]
     
     for index, plant in enumerate(crop_data["croft_list"]):
         if plant["my_croft_id"] != my_croft_id:
@@ -149,13 +149,13 @@ def handle_kinomi_sowing(_query):
 
         crop_data["croft_list"][index] = {
             "my_croft_id": my_croft_id,
-            "pokeitem_id": pokeitem_id,
-            "kinomi": item_info[str(pokeitem_id)]["item_name"],
-            "kinomi_id": pokeitem_id - 148,
+            "pokeitem_id": int(pokeitem_id),
+            "kinomi": item_info[pokeitem_id]["item_name"],
+            "kinomi_id": int(pokeitem_id) - 148,
             "dirt_hp": 0,
-            "desc1": "",
-            "desc2": "",
-            "desc3": "",
+            "desc1": item_info[pokeitem_id]["desc"][0],
+            "desc2": item_info[pokeitem_id]["desc"][1],
+            "desc3": item_info[pokeitem_id]["desc"][2],
             "kinomi_state": 0,
             "x": plant["x"],
             "y": plant["y"]

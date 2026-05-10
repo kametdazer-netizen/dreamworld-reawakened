@@ -1,1677 +1,2039 @@
 {
-    "1": {
-        "item_name": "Master Ball",
-        "filename": "bcicjdhj",
-        "folder": "item"
-    },
-    "2": {
-        "item_name": "Ultra Ball",
-        "filename": "bcicjbcd",
-        "folder": "item"
-    },
-    "3": {
-        "item_name": "Great Ball",
-        "filename": "bciciigh",
-        "folder": "item"
-    },
-    "4": {
-        "item_name": "Poké Ball",
-        "filename": "bcidagfj",
-        "folder": "item"
-    },
-    "5": {
-        "item_name": "Safari Ball",
-        "filename": "bcidaead",
-        "folder": "item"
-    },
-    "6": {
-        "item_name": "Net Ball",
-        "filename": "bcidabeh",
-        "folder": "item"
-    },
-    "7": {
-        "item_name": "Dive Ball",
-        "filename": "bcicjijb",
-        "folder": "item"
-    },
-    "8": {
-        "item_name": "Nest Ball",
-        "filename": "bcidbgid",
-        "folder": "item"
-    },
-    "9": {
-        "item_name": "Repeat Ball",
-        "filename": "bcidbech",
-        "folder": "item"
-    },
-    "10": {
-        "item_name": "Timer Ball",
-        "filename": "bcidbbhb",
-        "folder": "item"
-    },
-    "11": {
-        "item_name": "Luxury Ball",
-        "filename": "bcidajbf",
-        "folder": "item"
-    },
-    "12": {
-        "item_name": "Premier Ball",
-        "filename": "bcidchah",
-        "folder": "item"
-    },
-    "13": {
-        "item_name": "Dusk Ball",
-        "filename": "bcidcefb",
-        "folder": "item"
-    },
-    "14": {
-        "item_name": "Heal Ball",
-        "filename": "bcidcbjf",
-        "folder": "item"
-    },
-    "15": {
-        "item_name": "Quick Ball",
-        "filename": "bcidbjdj",
-        "folder": "item"
-    },
-    "17": {
-        "item_name": "Potion",
-        "filename": "bciddehf",
-        "folder": "item"
-    },
-    "18": {
-        "item_name": "Antidote",
-        "filename": "bciddcbj",
-        "folder": "item"
-    },
-    "19": {
-        "item_name": "Burn Heal",
-        "filename": "bcidcjgd",
-        "folder": "item"
-    },
-    "20": {
-        "item_name": "Ice Heal",
-        "filename": "bcidehff",
-        "folder": "item"
-    },
-    "21": {
-        "item_name": "Awakening",
-        "filename": "bcideejj",
-        "folder": "item"
-    },
-    "22": {
-        "item_name": "Parlyz Heal",
-        "filename": "bcideced",
-        "folder": "item"
-    },
-    "23": {
-        "item_name": "Full Restore",
-        "filename": "bciddjih",
-        "folder": "item"
-    },
-    "24": {
-        "item_name": "Max Potion",
-        "filename": "bcidfhhj",
-        "folder": "item"
-    },
-    "25": {
-        "item_name": "Hyper Potion",
-        "filename": "bcidffcd",
-        "folder": "item"
-    },
-    "26": {
-        "item_name": "Super Potion",
-        "filename": "bcidfcgh",
-        "folder": "item"
-    },
-    "27": {
-        "item_name": "Full Heal",
-        "filename": "bcidfabb",
-        "folder": "item"
-    },
-    "28": {
-        "item_name": "Revive",
-        "filename": "bcidgiad",
-        "folder": "item"
-    },
-    "29": {
-        "item_name": "Max Revive",
-        "filename": "bcidgfeh",
-        "folder": "item"
-    },
-    "30": {
-        "item_name": "Fresh Water",
-        "filename": "bcidgcjb",
-        "folder": "item"
-    },
-    "31": {
-        "item_name": "Soda Pop",
-        "filename": "bcidgadf",
-        "folder": "item"
-    },
-    "32": {
-        "item_name": "Lemonade",
-        "filename": "bcidhich",
-        "folder": "item"
-    },
-    "33": {
-        "item_name": "Moomoo Milk",
-        "filename": "bcidhfhb",
-        "folder": "item"
-    },
-    "34": {
-        "item_name": "Energypowder",
-        "filename": "bcidhdbf",
-        "folder": "item"
-    },
-    "35": {
-        "item_name": "Energy Root",
-        "filename": "bcidhafj",
-        "folder": "item"
-    },
-    "36": {
-        "item_name": "Heal Powder",
-        "filename": "bcidiifb",
-        "folder": "item"
-    },
-    "37": {
-        "item_name": "Revival Herb",
-        "filename": "bcidifjf",
-        "folder": "item"
-    },
-    "38": {
-        "item_name": "Ether",
-        "filename": "bcididdj",
-        "folder": "item"
-    },
-    "39": {
-        "item_name": "Max Ether",
-        "filename": "bcidiaid",
-        "folder": "item"
-    },
-    "40": {
-        "item_name": "Elixir",
-        "filename": "bcidjihf",
-        "folder": "item"
-    },
-    "41": {
-        "item_name": "Max Elixir",
-        "filename": "bcidjgbj",
-        "folder": "item"
-    },
-    "42": {
-        "item_name": "Lava Cookie",
-        "filename": "bcidjdgd",
-        "folder": "item"
-    },
-    "43": {
-        "item_name": "Berry Juice",
-        "filename": "bcidjbah",
-        "folder": "item"
-    },
-    "44": {
-        "item_name": "Sacred Ash",
-        "filename": "bcieaijj",
-        "folder": "item"
-    },
-    "45": {
-        "item_name": "HP Up",
-        "filename": "bcieaged",
-        "folder": "item"
-    },
-    "46": {
-        "item_name": "Protein",
-        "filename": "bcieadih",
-        "folder": "item"
-    },
-    "47": {
-        "item_name": "Iron",
-        "filename": "bcieabdb",
-        "folder": "item"
-    },
-    "48": {
-        "item_name": "Carbos",
-        "filename": "bciebjcd",
-        "folder": "item"
-    },
-    "49": {
-        "item_name": "Calcium",
-        "filename": "bciebggh",
-        "folder": "item"
-    },
-    "50": {
-        "item_name": "Rare Candy",
-        "filename": "bciebebb",
-        "folder": "item"
-    },
-    "51": {
-        "item_name": "Pp Up",
-        "filename": "bciebbff",
-        "folder": "item"
-    },
-    "52": {
-        "item_name": "Zinc",
-        "filename": "bciecjeh",
-        "folder": "item"
-    },
-    "53": {
-        "item_name": "Pp Max",
-        "filename": "bciecgjb",
-        "folder": "item"
-    },
-    "54": {
-        "item_name": "Old Gateau",
-        "filename": "bciecedf",
-        "folder": "item"
-    },
-    "55": {
-        "item_name": "Guard Spec",
-        "filename": "bciecbhj",
-        "folder": "item"
-    },
-    "56": {
-        "item_name": "Dire Hit",
-        "filename": "bciedjhb",
-        "folder": "item"
-    },
-    "57": {
-        "item_name": "X Attack",
-        "filename": "bciedhbf",
-        "folder": "item"
-    },
-    "58": {
-        "item_name": "X Defend",
-        "filename": "bciedefj",
-        "folder": "item"
-    },
-    "59": {
-        "item_name": "X Speed",
-        "filename": "bciedcad",
-        "folder": "item"
-    },
-    "60": {
-        "item_name": "X Accuracy",
-        "filename": "bcieejjf",
-        "folder": "item"
-    },
-    "61": {
-        "item_name": "X Special",
-        "filename": "bcieehdj",
-        "folder": "item"
-    },
-    "62": {
-        "item_name": "X Sp Def",
-        "filename": "bcieeeid",
-        "folder": "item"
-    },
-    "63": {
-        "item_name": "Poke Doll",
-        "filename": "bcieecch",
-        "folder": "item"
-    },
-    "64": {
-        "item_name": "Fluffy Tail",
-        "filename": "bcibdcfb",
-        "folder": "item"
-    },
-    "65": {
-        "item_name": "Blue Flute",
-        "filename": "bcibcjjf",
-        "folder": "item"
-    },
-    "66": {
-        "item_name": "Yellow Flute",
-        "filename": "bcibchdj",
-        "folder": "item"
-    },
-    "67": {
-        "item_name": "Red Flute",
-        "filename": "bcibceid",
-        "folder": "item"
-    },
-    "68": {
-        "item_name": "Black Flute",
-        "filename": "bcibechf",
-        "folder": "item"
-    },
-    "69": {
-        "item_name": "White Flute",
-        "filename": "bcibeabj",
-        "folder": "item"
-    },
-    "70": {
-        "item_name": "Shoal Salt",
-        "filename": "bcibdhgd",
-        "folder": "item"
-    },
-    "71": {
-        "item_name": "Shoal Shell",
-        "filename": "bcibdfah",
-        "folder": "item"
-    },
-    "72": {
-        "item_name": "Red Shard",
-        "filename": "bcibfcjj",
-        "folder": "item"
-    },
-    "73": {
-        "item_name": "Blue Shard",
-        "filename": "bcibfaed",
-        "folder": "item"
-    },
-    "74": {
-        "item_name": "Yellow Shard",
-        "filename": "bcibehih",
-        "folder": "item"
-    },
-    "75": {
-        "item_name": "Green Shard",
-        "filename": "bcibefdb",
-        "folder": "item"
-    },
-    "76": {
-        "item_name": "Super Repel",
-        "filename": "bcibgdcd",
-        "folder": "item"
-    },
-    "77": {
-        "item_name": "Max Repel",
-        "filename": "bcibgagh",
-        "folder": "item"
-    },
-    "78": {
-        "item_name": "Escape Rope",
-        "filename": "bcibfibb",
-        "folder": "item"
-    },
-    "79": {
-        "item_name": "Repel",
-        "filename": "bcibffff",
-        "folder": "item"
-    },
-    "80": {
-        "item_name": "Sun Stone",
-        "filename": "bcibhdeh",
-        "folder": "item"
-    },
-    "81": {
-        "item_name": "Moon Stone",
-        "filename": "bcibhajb",
-        "folder": "item"
-    },
-    "82": {
-        "item_name": "Fire Stone",
-        "filename": "bcibgidf",
-        "folder": "item"
-    },
-    "83": {
-        "item_name": "Thunderstone",
-        "filename": "bcibgfhj",
-        "folder": "item"
-    },
-    "84": {
-        "item_name": "Water Stone",
-        "filename": "bcibidhb",
-        "folder": "item"
-    },
-    "85": {
-        "item_name": "Leaf Stone",
-        "filename": "bcibibbf",
-        "folder": "item"
-    },
-    "86": {
-        "item_name": "TinyMushroom",
-        "filename": "bcibhifj",
-        "folder": "item"
-    },
-    "87": {
-        "item_name": "Big Mushroom",
-        "filename": "bcibhgad",
-        "folder": "item"
-    },
-    "88": {
-        "item_name": "Pearl",
-        "filename": "bcibjdjf",
-        "folder": "item"
-    },
-    "89": {
-        "item_name": "Big Pearl",
-        "filename": "bcibjbdj",
-        "folder": "item"
-    },
-    "90": {
-        "item_name": "Stardust",
-        "filename": "bcibiiid",
-        "folder": "item"
-    },
-    "91": {
-        "item_name": "Star Piece",
-        "filename": "bcibigch",
-        "folder": "item"
-    },
-    "92": {
-        "item_name": "Nugget",
-        "filename": "bcicaebj",
-        "folder": "item"
-    },
-    "93": {
-        "item_name": "Heart Scale",
-        "filename": "bcicabgd",
-        "folder": "item"
-    },
-    "94": {
-        "item_name": "Honey",
-        "filename": "bcibjjah",
-        "folder": "item"
-    },
-    "99": {
-        "item_name": "Root Fossil",
-        "filename": "bcicaghf",
-        "folder": "item"
-    },
-    "100": {
-        "item_name": "Claw Fossil",
-        "filename": "bciccegh",
-        "folder": "item"
-    },
-    "101": {
-        "item_name": "Helix Fossil",
-        "filename": "bcicccbb",
-        "folder": "item"
-    },
-    "102": {
-        "item_name": "Dome Fossil",
-        "filename": "bcicbjff",
-        "folder": "item"
-    },
-    "103": {
-        "item_name": "Old Amber",
-        "filename": "bcicbgjj",
-        "folder": "item"
-    },
-    "104": {
-        "item_name": "Armor Fossil",
-        "filename": "bcicdejb",
-        "folder": "item"
-    },
-    "105": {
-        "item_name": "Skull Fossil",
-        "filename": "bcicdcdf",
-        "folder": "item"
-    },
-    "106": {
-        "item_name": "Rare Bone",
-        "filename": "bciccjhj",
-        "folder": "item"
-    },
-    "107": {
-        "item_name": "Shiny Stone",
-        "filename": "bcicchcd",
-        "folder": "item"
-    },
-    "108": {
-        "item_name": "Dusk Stone",
-        "filename": "bcicefbf",
-        "folder": "item"
-    },
-    "109": {
-        "item_name": "Dawn Stone",
-        "filename": "bcicecfj",
-        "folder": "item"
-    },
-    "110": {
-        "item_name": "Oval Stone",
-        "filename": "bciceaad",
-        "folder": "item"
-    },
-    "134": {
-        "item_name": "Sweet Heart",
-        "filename": "bchjhdhj",
-        "folder": "item"
-    },
-    "149": {
-        "item_name": "Cheri Berry",
-        "filename": "bcicjdhj",
-        "folder": "nuts"
-    },
-    "150": {
-        "item_name": "Chesto Berry",
-        "filename": "bcicjbcd",
-        "folder": "nuts"
-    },
-    "151": {
-        "item_name": "Pecha Berry",
-        "filename": "bciciigh",
-        "folder": "nuts"
-    },
-    "152": {
-        "item_name": "Rawst Berry",
-        "filename": "bcidagfj",
-        "folder": "nuts"
-    },
-    "153": {
-        "item_name": "Aspear Berry",
-        "filename": "bcidaead",
-        "folder": "nuts"
-    },
-    "154": {
-        "item_name": "Leppa Berry",
-        "filename": "bcidabeh",
-        "folder": "nuts"
-    },
-    "155": {
-        "item_name": "Oran Berry",
-        "filename": "bcicjijb",
-        "folder": "nuts"
-    },
-    "156": {
-        "item_name": "Persim Berry",
-        "filename": "bcidbgid",
-        "folder": "nuts"
-    },
-    "157": {
-        "item_name": "Lum Berry",
-        "filename": "bcidbech",
-        "folder": "nuts"
-    },
-    "158": {
-        "item_name": "Sitrus Berry",
-        "filename": "bcidbbhb",
-        "folder": "nuts"
-    },
-    "159": {
-        "item_name": "Figy Berry",
-        "filename": "bcidajbf",
-        "folder": "nuts"
-    },
-    "160": {
-        "item_name": "Wiki Berry",
-        "filename": "bcidchah",
-        "folder": "nuts"
-    },
-    "161": {
-        "item_name": "Mago Berry",
-        "filename": "bcidcefb",
-        "folder": "nuts"
-    },
-    "162": {
-        "item_name": "Aguav Berry",
-        "filename": "bcidcbjf",
-        "folder": "nuts"
-    },
-    "163": {
-        "item_name": "Iapapa Berry",
-        "filename": "bcidbjdj",
-        "folder": "nuts"
-    },
-    "164": {
-        "item_name": "Razz Berry",
-        "filename": "bciddhdb",
-        "folder": "nuts"
-    },
-    "165": {
-        "item_name": "Bluk Berry",
-        "filename": "bciddehf",
-        "folder": "nuts"
-    },
-    "166": {
-        "item_name": "Nanab Berry",
-        "filename": "bciddcbj",
-        "folder": "nuts"
-    },
-    "167": {
-        "item_name": "Wepear Berry",
-        "filename": "bcidcjgd",
-        "folder": "nuts"
-    },
-    "168": {
-        "item_name": "Pinap Berry",
-        "filename": "bcidehff",
-        "folder": "nuts"
-    },
-    "169": {
-        "item_name": "Pomeg Berry",
-        "filename": "bcideejj",
-        "folder": "nuts"
-    },
-    "170": {
-        "item_name": "Kelpsy Berry",
-        "filename": "bcideced",
-        "folder": "nuts"
-    },
-    "171": {
-        "item_name": "Qualot Berry",
-        "filename": "bciddjih",
-        "folder": "nuts"
-    },
-    "172": {
-        "item_name": "Hondew Berry",
-        "filename": "bcidfhhj",
-        "folder": "nuts"
-    },
-    "173": {
-        "item_name": "Grepa Berry",
-        "filename": "bcidffcd",
-        "folder": "nuts"
-    },
-    "174": {
-        "item_name": "Tamato Berry",
-        "filename": "bcidfcgh",
-        "folder": "nuts"
-    },
-    "175": {
-        "item_name": "Cornn Berry",
-        "filename": "bcidfabb",
-        "folder": "nuts"
-    },
-    "176": {
-        "item_name": "Magost Berry",
-        "filename": "bcidgiad",
-        "folder": "nuts"
-    },
-    "177": {
-        "item_name": "Rabuta Berry",
-        "filename": "bcidgfeh",
-        "folder": "nuts"
-    },
-    "178": {
-        "item_name": "Nomel Berry",
-        "filename": "bcidgcjb",
-        "folder": "nuts"
-    },
-    "179": {
-        "item_name": "Spelon Berry",
-        "filename": "bcidgadf",
-        "folder": "nuts"
-    },
-    "180": {
-        "item_name": "Pamtre Berry",
-        "filename": "bcidhich",
-        "folder": "nuts"
-    },
-    "181": {
-        "item_name": "Watmel Berry",
-        "filename": "bcidhfhb",
-        "folder": "nuts"
-    },
-    "182": {
-        "item_name": "Durin Berry",
-        "filename": "bcidhdbf",
-        "folder": "nuts"
-    },
-    "183": {
-        "item_name": "Belue Berry",
-        "filename": "bcidhafj",
-        "folder": "nuts"
-    },
-    "184": {
-        "item_name": "Occa Berry",
-        "filename": "bcidiifb",
-        "folder": "nuts"
-    },
-    "185": {
-        "item_name": "Passho Berry",
-        "filename": "bcidifjf",
-        "folder": "nuts"
-    },
-    "186": {
-        "item_name": "Wacan Berry",
-        "filename": "bcididdj",
-        "folder": "nuts"
-    },
-    "187": {
-        "item_name": "Rindo Berry",
-        "filename": "bcidiaid",
-        "folder": "nuts"
-    },
-    "188": {
-        "item_name": "Yache Berry",
-        "filename": "bcidjihf",
-        "folder": "nuts"
-    },
-    "189": {
-        "item_name": "Chople Berry",
-        "filename": "bcidjgbj",
-        "folder": "nuts"
-    },
-    "190": {
-        "item_name": "Kebia Berry",
-        "filename": "bcidjdgd",
-        "folder": "nuts"
-    },
-    "191": {
-        "item_name": "Shuca Berry",
-        "filename": "bcidjbah",
-        "folder": "nuts"
-    },
-    "192": {
-        "item_name": "Coba Berry",
-        "filename": "bcieaijj",
-        "folder": "nuts"
-    },
-    "193": {
-        "item_name": "Payapa Berry",
-        "filename": "bcieaged",
-        "folder": "nuts"
-    },
-    "194": {
-        "item_name": "Tanga Berry",
-        "filename": "bcieadih",
-        "folder": "nuts"
-    },
-    "195": {
-        "item_name": "Charti Berry",
-        "filename": "bcieabdb",
-        "folder": "nuts"
-    },
-    "196": {
-        "item_name": "Kasib Berry",
-        "filename": "bciebjcd",
-        "folder": "nuts"
-    },
-    "197": {
-        "item_name": "Haban Berry",
-        "filename": "bciebggh",
-        "folder": "nuts"
-    },
-    "198": {
-        "item_name": "Colbur Berry",
-        "filename": "bciebebb",
-        "folder": "nuts"
-    },
-    "199": {
-        "item_name": "Babiri Berry",
-        "filename": "bciebbff",
-        "folder": "nuts"
-    },
-    "200": {
-        "item_name": "Chilan Berry",
-        "filename": "bciecjeh",
-        "folder": "nuts"
-    },
-    "201": {
-        "item_name": "Liechi Berry",
-        "filename": "bciecgjb",
-        "folder": "nuts"
-    },
-    "202": {
-        "item_name": "Ganlon Berry",
-        "filename": "bciecedf",
-        "folder": "nuts"
-    },
-    "203": {
-        "item_name": "Salac Berry",
-        "filename": "bciecbhj",
-        "folder": "nuts"
-    },
-    "204": {
-        "item_name": "Petaya Berry",
-        "filename": "bciedjhb",
-        "folder": "nuts"
-    },
-    "205": {
-        "item_name": "Apicot Berry",
-        "filename": "bciedhbf",
-        "folder": "nuts"
-    },
-    "206": {
-        "item_name": "Lansat Berry",
-        "filename": "bciedefj",
-        "folder": "nuts"
-    },
-    "207": {
-        "item_name": "Starf Berry",
-        "filename": "bciedcad",
-        "folder": "nuts"
-    },
-    "208": {
-        "item_name": "Enigma Berry",
-        "filename": "bcieejjf",
-        "folder": "nuts"
-    },
-    "209": {
-        "item_name": "Micle Berry",
-        "filename": "bcieehdj",
-        "folder": "nuts"
-    },
-    "210": {
-        "item_name": "Custap Berry",
-        "filename": "bcieeeid",
-        "folder": "nuts"
-    },
-    "211": {
-        "item_name": "Jaboca Berry",
-        "filename": "bcieecch",
-        "folder": "nuts"
-    },
-    "212": {
-        "item_name": "Rowap Berry",
-        "filename": "bcibdcfb",
-        "folder": "nuts"
-    },
-    "214": {
-        "item_name": "White Herb",
-        "filename": "bchifajb",
-        "folder": "item"
-    },
-    "215": {
-        "item_name": "Macho Brace",
-        "filename": "bchieidf",
-        "folder": "item"
-    },
-    "216": {
-        "item_name": "Exp Share",
-        "filename": "bchiggch",
-        "folder": "item"
-    },
-    "217": {
-        "item_name": "Quick Claw",
-        "filename": "bchigdhb",
-        "folder": "item"
-    },
-    "218": {
-        "item_name": "Soothe Bell",
-        "filename": "bchigbbf",
-        "folder": "item"
-    },
-    "219": {
-        "item_name": "Mental Herb",
-        "filename": "bchififj",
-        "folder": "item"
-    },
-    "220": {
-        "item_name": "Choice Band",
-        "filename": "bchihgfb",
-        "folder": "item"
-    },
-    "221": {
-        "item_name": "King's Rock",
-        "filename": "bchihdjf",
-        "folder": "item"
-    },
-    "222": {
-        "item_name": "SilverPowder",
-        "filename": "bchihbdj",
-        "folder": "item"
-    },
-    "223": {
-        "item_name": "Amulet Coin",
-        "filename": "bchigiid",
-        "folder": "item"
-    },
-    "224": {
-        "item_name": "Cleanse Tag",
-        "filename": "bchiighf",
-        "folder": "item"
-    },
-    "225": {
-        "item_name": "Soul Dew",
-        "filename": "bchiiebj",
-        "folder": "item"
-    },
-    "226": {
-        "item_name": "Deepseatooth",
-        "filename": "bchiibgd",
-        "folder": "item"
-    },
-    "227": {
-        "item_name": "Deepseascale",
-        "filename": "bchihjah",
-        "folder": "item"
-    },
-    "228": {
-        "item_name": "Smoke Ball",
-        "filename": "bchijgjj",
-        "folder": "item"
-    },
-    "229": {
-        "item_name": "Everstone",
-        "filename": "bchijeed",
-        "folder": "item"
-    },
-    "230": {
-        "item_name": "Focus Band",
-        "filename": "bchijbih",
-        "folder": "item"
-    },
-    "231": {
-        "item_name": "Lucky Egg",
-        "filename": "bchiijdb",
-        "folder": "item"
-    },
-    "232": {
-        "item_name": "Scope Lens",
-        "filename": "bchjahcd",
-        "folder": "item"
-    },
-    "233": {
-        "item_name": "Metal Coat",
-        "filename": "bchjaegh",
-        "folder": "item"
-    },
-    "234": {
-        "item_name": "Leftovers",
-        "filename": "bchjacbb",
-        "folder": "item"
-    },
-    "235": {
-        "item_name": "Dragon Scale",
-        "filename": "bchijjff",
-        "folder": "item"
-    },
-    "236": {
-        "item_name": "Light Ball",
-        "filename": "bchjbheh",
-        "folder": "item"
-    },
-    "237": {
-        "item_name": "Soft Sand",
-        "filename": "bchjbejb",
-        "folder": "item"
-    },
-    "238": {
-        "item_name": "Hard Stone",
-        "filename": "bchjbcdf",
-        "folder": "item"
-    },
-    "239": {
-        "item_name": "Miracle Seed",
-        "filename": "bchjajhj",
-        "folder": "item"
-    },
-    "240": {
-        "item_name": "Blackglasses",
-        "filename": "bchjchhb",
-        "folder": "item"
-    },
-    "241": {
-        "item_name": "Black Belt",
-        "filename": "bchjcfbf",
-        "folder": "item"
-    },
-    "242": {
-        "item_name": "Magnet",
-        "filename": "bchjccfj",
-        "folder": "item"
-    },
-    "243": {
-        "item_name": "Mystic Water",
-        "filename": "bchjcaad",
-        "folder": "item"
-    },
-    "244": {
-        "item_name": "Sharp Beak",
-        "filename": "bchjdhjf",
-        "folder": "item"
-    },
-    "245": {
-        "item_name": "Poison Barb",
-        "filename": "bchjdfdj",
-        "folder": "item"
-    },
-    "246": {
-        "item_name": "NeverMeltIce",
-        "filename": "bchjdcid",
-        "folder": "item"
-    },
-    "247": {
-        "item_name": "Spell Tag",
-        "filename": "bchjdach",
-        "folder": "item"
-    },
-    "248": {
-        "item_name": "TwistedSpoon",
-        "filename": "bchjeibj",
-        "folder": "item"
-    },
-    "249": {
-        "item_name": "Charcoal",
-        "filename": "bchjefgd",
-        "folder": "item"
-    },
-    "250": {
-        "item_name": "Dragon Fang",
-        "filename": "bchjedah",
-        "folder": "item"
-    },
-    "251": {
-        "item_name": "Silk Scarf",
-        "filename": "bchjeafb",
-        "folder": "item"
-    },
-    "252": {
-        "item_name": "Up Grade",
-        "filename": "bchjfied",
-        "folder": "item"
-    },
-    "253": {
-        "item_name": "Shell Bell",
-        "filename": "bchjffih",
-        "folder": "item"
-    },
-    "254": {
-        "item_name": "Sea Incense",
-        "filename": "bchjfddb",
-        "folder": "item"
-    },
-    "255": {
-        "item_name": "Lax Incense",
-        "filename": "bchjfahf",
-        "folder": "item"
-    },
-    "256": {
-        "item_name": "Lucky Punch",
-        "filename": "bchgeajj",
-        "folder": "item"
-    },
-    "257": {
-        "item_name": "Metal Powder",
-        "filename": "bchgdied",
-        "folder": "item"
-    },
-    "258": {
-        "item_name": "Thick Club",
-        "filename": "bchgdfih",
-        "folder": "item"
-    },
-    "259": {
-        "item_name": "Stick",
-        "filename": "bchgdddb",
-        "folder": "item"
-    },
-    "260": {
-        "item_name": "Red Scarf",
-        "filename": "bchgfbcd",
-        "folder": "item"
-    },
-    "261": {
-        "item_name": "Blue Scarf",
-        "filename": "bchgeigh",
-        "folder": "item"
-    },
-    "262": {
-        "item_name": "Pink Scarf",
-        "filename": "bchgegbb",
-        "folder": "item"
-    },
-    "263": {
-        "item_name": "Green Scarf",
-        "filename": "bchgedff",
-        "folder": "item"
-    },
-    "264": {
-        "item_name": "Yellow Scarf",
-        "filename": "bchggbeh",
-        "folder": "item"
-    },
-    "265": {
-        "item_name": "Wide Lens",
-        "filename": "bchgfijb",
-        "folder": "item"
-    },
-    "266": {
-        "item_name": "Muscle Band",
-        "filename": "bchgfgdf",
-        "folder": "item"
-    },
-    "267": {
-        "item_name": "Wise Glasses",
-        "filename": "bchgfdhj",
-        "folder": "item"
-    },
-    "268": {
-        "item_name": "Expert Belt",
-        "filename": "bchghbhb",
-        "folder": "item"
-    },
-    "269": {
-        "item_name": "Light Clay",
-        "filename": "bchggjbf",
-        "folder": "item"
-    },
-    "270": {
-        "item_name": "Life Orb",
-        "filename": "bchgggfj",
-        "folder": "item"
-    },
-    "271": {
-        "item_name": "Power Herb",
-        "filename": "bchggead",
-        "folder": "item"
-    },
-    "272": {
-        "item_name": "Toxic Orb",
-        "filename": "bchgibjf",
-        "folder": "item"
-    },
-    "273": {
-        "item_name": "Flame Orb",
-        "filename": "bchghjdj",
-        "folder": "item"
-    },
-    "274": {
-        "item_name": "Quick Powder",
-        "filename": "bchghgid",
-        "folder": "item"
-    },
-    "275": {
-        "item_name": "Focus Sash",
-        "filename": "bchghech",
-        "folder": "item"
-    },
-    "276": {
-        "item_name": "Zoom Lens",
-        "filename": "bchgjcbj",
-        "folder": "item"
-    },
-    "277": {
-        "item_name": "Metronome",
-        "filename": "bchgijgd",
-        "folder": "item"
-    },
-    "278": {
-        "item_name": "Iron Ball",
-        "filename": "bchgihah",
-        "folder": "item"
-    },
-    "279": {
-        "item_name": "Lagging Tail",
-        "filename": "bchgiefb",
-        "folder": "item"
-    },
-    "280": {
-        "item_name": "Destiny Knot",
-        "filename": "bchhaced",
-        "folder": "item"
-    },
-    "281": {
-        "item_name": "Black Sludge",
-        "filename": "bchgjjih",
-        "folder": "item"
-    },
-    "282": {
-        "item_name": "Icy Rock",
-        "filename": "bchgjhdb",
-        "folder": "item"
-    },
-    "283": {
-        "item_name": "Smooth Rock",
-        "filename": "bchgjehf",
-        "folder": "item"
-    },
-    "284": {
-        "item_name": "Heat Rock",
-        "filename": "bchhbcgh",
-        "folder": "item"
-    },
-    "285": {
-        "item_name": "Damp Rock",
-        "filename": "bchhbabb",
-        "folder": "item"
-    },
-    "286": {
-        "item_name": "Grip Claw",
-        "filename": "bchhahff",
-        "folder": "item"
-    },
-    "287": {
-        "item_name": "Choice Scarf",
-        "filename": "bchhaejj",
-        "folder": "item"
-    },
-    "288": {
-        "item_name": "Sticky Barb",
-        "filename": "bchhccjb",
-        "folder": "item"
-    },
-    "289": {
-        "item_name": "Power Bracer",
-        "filename": "bchhcadf",
-        "folder": "item"
-    },
-    "290": {
-        "item_name": "Power Belt",
-        "filename": "bchhbhhj",
-        "folder": "item"
-    },
-    "291": {
-        "item_name": "Power Lens",
-        "filename": "bchhbfcd",
-        "folder": "item"
-    },
-    "292": {
-        "item_name": "Power Band",
-        "filename": "bchhddbf",
-        "folder": "item"
-    },
-    "293": {
-        "item_name": "Power Anklet",
-        "filename": "bchhdafj",
-        "folder": "item"
-    },
-    "294": {
-        "item_name": "Power Weight",
-        "filename": "bchhciad",
-        "folder": "item"
-    },
-    "295": {
-        "item_name": "Shed Shell",
-        "filename": "bchhcfeh",
-        "folder": "item"
-    },
-    "296": {
-        "item_name": "Big Root",
-        "filename": "bchheddj",
-        "folder": "item"
-    },
-    "297": {
-        "item_name": "Choice Specs",
-        "filename": "bchheaid",
-        "folder": "item"
-    },
-    "298": {
-        "item_name": "Flame Plate",
-        "filename": "bchhdich",
-        "folder": "item"
-    },
-    "299": {
-        "item_name": "Splash Plate",
-        "filename": "bchhdfhb",
-        "folder": "item"
-    },
-    "300": {
-        "item_name": "Zap Plate",
-        "filename": "bchhfdgd",
-        "folder": "item"
-    },
-    "301": {
-        "item_name": "Meadow Plate",
-        "filename": "bchhfbah",
-        "folder": "item"
-    },
-    "302": {
-        "item_name": "Icicle Plate",
-        "filename": "bchheifb",
-        "folder": "item"
-    },
-    "303": {
-        "item_name": "Fist Plate",
-        "filename": "bchhefjf",
-        "folder": "item"
-    },
-    "304": {
-        "item_name": "Toxic Plate",
-        "filename": "bchhgdih",
-        "folder": "item"
-    },
-    "305": {
-        "item_name": "Earth Plate",
-        "filename": "bchhgbdb",
-        "folder": "item"
-    },
-    "306": {
-        "item_name": "Sky Plate",
-        "filename": "bchhfihf",
-        "folder": "item"
-    },
-    "307": {
-        "item_name": "Mind Plate",
-        "filename": "bchhfgbj",
-        "folder": "item"
-    },
-    "308": {
-        "item_name": "Insect Plate",
-        "filename": "bchhhebb",
-        "folder": "item"
-    },
-    "309": {
-        "item_name": "Stone Plate",
-        "filename": "bchhhbff",
-        "folder": "item"
-    },
-    "310": {
-        "item_name": "Spooky Plate",
-        "filename": "bchhgijj",
-        "folder": "item"
-    },
-    "311": {
-        "item_name": "Draco Plate",
-        "filename": "bchhgged",
-        "folder": "item"
-    },
-    "312": {
-        "item_name": "Dread Plate",
-        "filename": "bchhiedf",
-        "folder": "item"
-    },
-    "313": {
-        "item_name": "Iron Plate",
-        "filename": "bchhibhj",
-        "folder": "item"
-    },
-    "314": {
-        "item_name": "Odd Incense",
-        "filename": "bchhhjcd",
-        "folder": "item"
-    },
-    "315": {
-        "item_name": "Rock Incense",
-        "filename": "bchhhggh",
-        "folder": "item"
-    },
-    "316": {
-        "item_name": "Full Incense",
-        "filename": "bchhjefj",
-        "folder": "item"
-    },
-    "317": {
-        "item_name": "Wave Incense",
-        "filename": "bchhjcad",
-        "folder": "item"
-    },
-    "318": {
-        "item_name": "Rose Incense",
-        "filename": "bchhijeh",
-        "folder": "item"
-    },
-    "319": {
-        "item_name": "Luck Incense",
-        "filename": "bchhigjb",
-        "folder": "item"
-    },
-    "320": {
-        "item_name": "Pure Incense",
-        "filename": "bchehhbf",
-        "folder": "item"
-    },
-    "321": {
-        "item_name": "Protector",
-        "filename": "bchehefj",
-        "folder": "item"
-    },
-    "322": {
-        "item_name": "Electirizer",
-        "filename": "bchehcad",
-        "folder": "item"
-    },
-    "323": {
-        "item_name": "Magmarizer",
-        "filename": "bchegjeh",
-        "folder": "item"
-    },
-    "324": {
-        "item_name": "Dubious Disc",
-        "filename": "bcheihdj",
-        "folder": "item"
-    },
-    "325": {
-        "item_name": "Reaper Cloth",
-        "filename": "bcheieid",
-        "folder": "item"
-    },
-    "326": {
-        "item_name": "Razor Claw",
-        "filename": "bcheicch",
-        "folder": "item"
-    },
-    "327": {
-        "item_name": "Razor Fang",
-        "filename": "bchehjhb",
-        "folder": "item"
-    },
-    "537": {
-        "item_name": "Prism Scale",
-        "filename": "bchaeefb",
-        "folder": "item"
-    },
-    "538": {
-        "item_name": "Eviolite",
-        "filename": "bchaebjf",
-        "folder": "item"
-    },
-    "539": {
-        "item_name": "Float Stone",
-        "filename": "bchadjdj",
-        "folder": "item"
-    },
-    "540": {
-        "item_name": "Rocky Helmet",
-        "filename": "bchafhdb",
-        "folder": "item"
-    },
-    "541": {
-        "item_name": "Air Balloon",
-        "filename": "bchafehf",
-        "folder": "item"
-    },
-    "542": {
-        "item_name": "Red Card",
-        "filename": "bchafcbj",
-        "folder": "item"
-    },
-    "543": {
-        "item_name": "Ring Target",
-        "filename": "bchaejgd",
-        "folder": "item"
-    },
-    "544": {
-        "item_name": "Binding Band",
-        "filename": "bchaghff",
-        "folder": "item"
-    },
-    "545": {
-        "item_name": "Absorb Bulb",
-        "filename": "bchagejj",
-        "folder": "item"
-    },
-    "546": {
-        "item_name": "Cell Battery",
-        "filename": "bchagced",
-        "folder": "item"
-    },
-    "547": {
-        "item_name": "Eject Button",
-        "filename": "bchafjih",
-        "folder": "item"
-    },
-    "548": {
-        "item_name": "Fire Gem",
-        "filename": "bchahhhj",
-        "folder": "item"
-    },
-    "549": {
-        "item_name": "Water Gem",
-        "filename": "bchahfcd",
-        "folder": "item"
-    },
-    "550": {
-        "item_name": "Electric Gem",
-        "filename": "bchahcgh",
-        "folder": "item"
-    },
-    "551": {
-        "item_name": "Grass Gem",
-        "filename": "bchahabb",
-        "folder": "item"
-    },
-    "552": {
-        "item_name": "Ice Gem",
-        "filename": "bchaiiad",
-        "folder": "item"
-    },
-    "553": {
-        "item_name": "Fighting Gem",
-        "filename": "bchaifeh",
-        "folder": "item"
-    },
-    "554": {
-        "item_name": "Poison Gem",
-        "filename": "bchaicjb",
-        "folder": "item"
-    },
-    "555": {
-        "item_name": "Ground Gem",
-        "filename": "bchaiadf",
-        "folder": "item"
-    },
-    "556": {
-        "item_name": "Flying Gem",
-        "filename": "bchajich",
-        "folder": "item"
-    },
-    "557": {
-        "item_name": "Psychic Gem",
-        "filename": "bchajfhb",
-        "folder": "item"
-    },
-    "558": {
-        "item_name": "Bug Gem",
-        "filename": "bchajdbf",
-        "folder": "item"
-    },
-    "559": {
-        "item_name": "Rock Gem",
-        "filename": "bchajafj",
-        "folder": "item"
-    },
-    "560": {
-        "item_name": "Ghost Gem",
-        "filename": "bchbaifb",
-        "folder": "item"
-    },
-    "561": {
-        "item_name": "Dragon Gem",
-        "filename": "bchbafjf",
-        "folder": "item"
-    },
-    "562": {
-        "item_name": "Dark Gem",
-        "filename": "bchbaddj",
-        "folder": "item"
-    },
-    "563": {
-        "item_name": "Steel Gem",
-        "filename": "bchbaaid",
-        "folder": "item"
-    },
-    "564": {
-        "item_name": "Normal Gem",
-        "filename": "bchbbihf",
-        "folder": "item"
-    },
-    "565": {
-        "item_name": "Health Wing",
-        "filename": "bchbbgbj",
-        "folder": "item"
-    },
-    "566": {
-        "item_name": "Muscle Wing",
-        "filename": "bchbbdgd",
-        "folder": "item"
-    },
-    "567": {
-        "item_name": "Resist Wing",
-        "filename": "bchbbbah",
-        "folder": "item"
-    },
-    "568": {
-        "item_name": "Genius Wing",
-        "filename": "bchbcijj",
-        "folder": "item"
-    },
-    "569": {
-        "item_name": "Clever Wing",
-        "filename": "bchbcged",
-        "folder": "item"
-    },
-    "570": {
-        "item_name": "Swift Wing",
-        "filename": "bchbcdih",
-        "folder": "item"
-    },
-    "571": {
-        "item_name": "Pretty Wing",
-        "filename": "bchbcbdb",
-        "folder": "item"
-    },
-    "572": {
-        "item_name": "Cover Fossil",
-        "filename": "bchbdjcd",
-        "folder": "item"
-    },
-    "573": {
-        "item_name": "Plume Fossil",
-        "filename": "bchbdggh",
-        "folder": "item"
-    },
-    "575": {
-        "item_name": "Pass Orb",
-        "filename": "bchbdbff",
-        "folder": "item"
-    },
-    "577": {
-        "item_name": "Poke Toy",
-        "filename": "bcgibjcd",
-        "folder": "item"
-    },
-    "580": {
-        "item_name": "Balmmushroom",
-        "filename": "bcgidcad",
-        "folder": "item"
-    },
-    "581": {
-        "item_name": "Big Nugget",
-        "filename": "bcgicjeh",
-        "folder": "item"
-    },
-    "582": {
-        "item_name": "Pearl String",
-        "filename": "bcgicgjb",
-        "folder": "item"
-    },
-    "583": {
-        "item_name": "Comet Shard",
-        "filename": "bcgicedf",
-        "folder": "item"
-    },
-    "584": {
-        "item_name": "Relic Copper",
-        "filename": "bcgiecch",
-        "folder": "item"
-    },
-    "585": {
-        "item_name": "Relic Silver",
-        "filename": "bcgidjhb",
-        "folder": "item"
-    },
-    "586": {
-        "item_name": "Relic Gold",
-        "filename": "bcgidhbf",
-        "folder": "item"
-    },
-    "587": {
-        "item_name": "Relic Vase",
-        "filename": "bcgidefj",
-        "folder": "item"
-    },
-    "588": {
-        "item_name": "Relic Band",
-        "filename": "bcgifcfb",
-        "folder": "item"
-    },
-    "589": {
-        "item_name": "Relic Statue",
-        "filename": "bcgiejjf",
-        "folder": "item"
-    },
-    "590": {
-        "item_name": "Relic Crown",
-        "filename": "bcgiehdj",
-        "folder": "item"
-    },
-    "591": {
-        "item_name": "Casteliacone",
-        "filename": "bcgieeid",
-        "folder": "item"
-    }
+  "1": {
+    "item_name": "Master Ball", 
+    "filename": "bcicjdhj", 
+    "folder": "item", 
+    "desc": ["The best Ball with the ultimate level of", "performance. It will catch any wild", "Pokémon without fail."]
+  }, 
+  "2": {
+    "item_name": "Ultra Ball", 
+    "filename": "bcicjbcd", 
+    "folder": "item", 
+    "desc": ["An ultra-performance Ball that", "provides a higher Pokémon catch rate", "than a Great Ball."]
+  }, 
+  "3": {
+    "item_name": "Great Ball", 
+    "filename": "bciciigh", 
+    "folder": "item", 
+    "desc": ["A good, high-performance Ball that", "provides a higher Pokémon catch rate", "than a standard Poké Ball."]
+  }, 
+  "4": {
+    "item_name": "Poké Ball", 
+    "filename": "bcidagfj", 
+    "folder": "item", 
+    "desc": ["A device for catching wild Pokémon.", "It is thrown like a ball at the target.", "It is designed as a capsule system."]
+  }, 
+  "5": {
+    "item_name": "Safari Ball", 
+    "filename": "bcidaead", 
+    "folder": "item", 
+    "desc": ["A special Poké Ball that is used only in", "the Great Marsh. It is decorated in a", "camouflage pattern."]
+  }, 
+  "6": {
+    "item_name": "Net Ball", 
+    "filename": "bcidabeh", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "works especially well on Water- and", "Bug-type Pokémon."]
+  }, 
+  "7": {
+    "item_name": "Dive Ball", 
+    "filename": "bcicjijb", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "works especially well on Pokémon that", "live underwater."]
+  }, 
+  "8": {
+    "item_name": "Nest Ball", 
+    "filename": "bcidbgid", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "works especially well on weaker", "Pokémon in the wild."]
+  }, 
+  "9": {
+    "item_name": "Repeat Ball", 
+    "filename": "bcidbech", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "works especially well on Pokémon", "species that were previously caught."]
+  }, 
+  "10": {
+    "item_name": "Timer Ball", 
+    "filename": "bcidbbhb", 
+    "folder": "item", 
+    "desc": ["A somewhat different Ball that", "becomes progressively better the", "more turns there are in a battle."]
+  }, 
+  "11": {
+    "item_name": "Luxury Ball", 
+    "filename": "bcidajbf", 
+    "folder": "item", 
+    "desc": ["A comfortable Poké Ball that makes a", "caught wild Pokémon quickly grow", "friendly."]
+  }, 
+  "12": {
+    "item_name": "Premier Ball", 
+    "filename": "bcidchah", 
+    "folder": "item", 
+    "desc": ["A somewhat rare Poké Ball that has", "been specially made to commemorate", "an event of some sort."]
+  }, 
+  "13": {
+    "item_name": "Dusk Ball", 
+    "filename": "bcidcefb", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "makes it easier to catch wild Pokémon", "at night or in dark places like caves."]
+  }, 
+  "14": {
+    "item_name": "Heal Ball", 
+    "filename": "bcidcbjf", 
+    "folder": "item", 
+    "desc": ["A remedial Poké Ball that restores the", "caught Pokémon's HP and eliminates", "any status problem."]
+  }, 
+  "15": {
+    "item_name": "Quick Ball", 
+    "filename": "bcidbjdj", 
+    "folder": "item", 
+    "desc": ["A somewhat different Poké Ball that", "provides a better catch rate if it is", "used at the start of a wild encounter."]
+  }, 
+  "17": {
+    "item_name": "Potion", 
+    "filename": "bciddehf", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine for wounds.", "It restores the HP of one Pokémon by", "just 20 points."]
+  }, 
+  "18": {
+    "item_name": "Antidote", 
+    "filename": "bciddcbj", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It lifts the effect of poison from one", "Pokémon."]
+  }, 
+  "19": {
+    "item_name": "Burn Heal", 
+    "filename": "bcidcjgd", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It heals a single Pokémon that is", "suffering from a burn."]
+  }, 
+  "20": {
+    "item_name": "Ice Heal", 
+    "filename": "bcidehff", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It defrosts a Pokémon that has been", "frozen solid."]
+  }, 
+  "21": {
+    "item_name": "Awakening", 
+    "filename": "bcideejj", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It awakens a Pokémon from the", "clutches of sleep."]
+  }, 
+  "22": {
+    "item_name": "Parlyz Heal", 
+    "filename": "bcideced", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It eliminates paralysis from a single", "Pokémon."]
+  }, 
+  "23": {
+    "item_name": "Full Restore", 
+    "filename": "bciddjih", 
+    "folder": "item", 
+    "desc": ["A medicine that fully restores the HP", "and heals any status problems of a", "single Pokémon."]
+  }, 
+  "24": {
+    "item_name": "Max Potion", 
+    "filename": "bcidfhhj", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine for wounds.", "It completely restores the HP of a", "single Pokémon."]
+  }, 
+  "25": {
+    "item_name": "Hyper Potion", 
+    "filename": "bcidffcd", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine for wounds.", "It restores the HP of one Pokémon by", "200 points."]
+  }, 
+  "26": {
+    "item_name": "Super Potion", 
+    "filename": "bcidfcgh", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine for wounds.", "It restores the HP of one Pokémon by", "50 points."]
+  }, 
+  "27": {
+    "item_name": "Full Heal", 
+    "filename": "bcidfabb", 
+    "folder": "item", 
+    "desc": ["A spray-type medicine.", "It heals all the status problems of a", "single Pokémon."]
+  }, 
+  "28": {
+    "item_name": "Revive", 
+    "filename": "bcidgiad", 
+    "folder": "item", 
+    "desc": ["A medicine that revives a fainted", "Pokémon. It restores half the", "Pokémon's maximum HP."]
+  }, 
+  "29": {
+    "item_name": "Max Revive", 
+    "filename": "bcidgfeh", 
+    "folder": "item", 
+    "desc": ["A medicine that revives a fainted", "Pokémon. It fully restores the", "Pokémon's HP."]
+  }, 
+  "30": {
+    "item_name": "Fresh Water", 
+    "filename": "bcidgcjb", 
+    "folder": "item", 
+    "desc": ["Water with a high mineral content.", "It restores the HP of one Pokémon by", "50 points."]
+  }, 
+  "31": {
+    "item_name": "Soda Pop", 
+    "filename": "bcidgadf", 
+    "folder": "item", 
+    "desc": ["A fizzy soda drink.", "It restores the HP of one Pokémon by", "60 points."]
+  }, 
+  "32": {
+    "item_name": "Lemonade", 
+    "filename": "bcidhich", 
+    "folder": "item", 
+    "desc": ["A very sweet drink.", "It restores the HP of one Pokémon by", "80 points."]
+  }, 
+  "33": {
+    "item_name": "Moomoo Milk", 
+    "filename": "bcidhfhb", 
+    "folder": "item", 
+    "desc": ["Milk with a very high nutrition content.", "It restores the HP of one Pokémon by", "100 points."]
+  }, 
+  "34": {
+    "item_name": "Energypowder", 
+    "filename": "bcidhdbf", 
+    "folder": "item", 
+    "desc": ["A very bitter medicine powder.", "It restores the HP of one Pokémon by", "50 points."]
+  }, 
+  "35": {
+    "item_name": "Energy Root", 
+    "filename": "bcidhafj", 
+    "folder": "item", 
+    "desc": ["A very bitter root.", "It restores the HP of one Pokémon by", "200 points."]
+  }, 
+  "36": {
+    "item_name": "Heal Powder", 
+    "filename": "bcidiifb", 
+    "folder": "item", 
+    "desc": ["A very bitter medicine powder.", "It heals all the status problems of a", "single Pokémon."]
+  }, 
+  "37": {
+    "item_name": "Revival Herb", 
+    "filename": "bcidifjf", 
+    "folder": "item", 
+    "desc": ["A very bitter medicinal herb.", "It revives a fainted Pokémon, fully", "restoring its HP."]
+  }, 
+  "38": {
+    "item_name": "Ether", 
+    "filename": "bcididdj", 
+    "folder": "item", 
+    "desc": ["It restores the PP of a Pokémon's", "selected move by a maximum of", "10 points."]
+  }, 
+  "39": {
+    "item_name": "Max Ether", 
+    "filename": "bcidiaid", 
+    "folder": "item", 
+    "desc": ["It fully restores the PP of a single", "selected move that has been learned", "by the target Pokémon."]
+  }, 
+  "40": {
+    "item_name": "Elixir", 
+    "filename": "bcidjihf", 
+    "folder": "item", 
+    "desc": ["It restores the PP of all the", "moves learned by the targeted Pokémon", "by 10 points each."]
+  }, 
+  "41": {
+    "item_name": "Max Elixir", 
+    "filename": "bcidjgbj", 
+    "folder": "item", 
+    "desc": ["It fully restores the PP of all the", "moves learned by the targeted", "Pokémon."]
+  }, 
+  "42": {
+    "item_name": "Lava Cookie", 
+    "filename": "bcidjdgd", 
+    "folder": "item", 
+    "desc": ["Lavaridge Town's local specialty.", "It heals all the status problems of", "one Pokémon."]
+  }, 
+  "43": {
+    "item_name": "Berry Juice", 
+    "filename": "bcidjbah", 
+    "folder": "item", 
+    "desc": ["A 100% pure juice made of Berries.", "It restores the HP of one Pokémon by", "just 20 points."]
+  }, 
+  "44": {
+    "item_name": "Sacred Ash", 
+    "filename": "bcieaijj", 
+    "folder": "item", 
+    "desc": ["It revives all fainted Pokémon.", "In doing so, it also fully restores", "their HP."]
+  }, 
+  "45": {
+    "item_name": "HP Up", 
+    "filename": "bcieaged", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base HP of a single", "Pokémon."]
+  }, 
+  "46": {
+    "item_name": "Protein", 
+    "filename": "bcieadih", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base Attack stat of a", "single Pokémon."]
+  }, 
+  "47": {
+    "item_name": "Iron", 
+    "filename": "bcieabdb", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base Defense stat of a", "single Pokémon."]
+  }, 
+  "48": {
+    "item_name": "Carbos", 
+    "filename": "bciebjcd", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base Speed stat of a", "single Pokémon."]
+  }, 
+  "49": {
+    "item_name": "Calcium", 
+    "filename": "bciebggh", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base Sp. Atk (Special", "Attack) stat of a single Pokémon."]
+  }, 
+  "50": {
+    "item_name": "Rare Candy", 
+    "filename": "bciebebb", 
+    "folder": "item", 
+    "desc": ["A candy that is packed with energy.", "It raises the level of a single Pokémon", "by one."]
+  }, 
+  "51": {
+    "item_name": "Pp Up", 
+    "filename": "bciebbff", 
+    "folder": "item", 
+    "desc": ["It slightly raises the maximum PP of", "a selected move that has been learned", "by the target Pokémon."]
+  }, 
+  "52": {
+    "item_name": "Zinc", 
+    "filename": "bciecjeh", 
+    "folder": "item", 
+    "desc": ["A nutritious drink for Pokémon.", "It raises the base Sp. Def (Special", "Defense) stat of a single Pokémon."]
+  }, 
+  "53": {
+    "item_name": "Pp Max", 
+    "filename": "bciecgjb", 
+    "folder": "item", 
+    "desc": ["It maximally raises the top PP of a", "selected move that has been learned", "by the target Pokémon."]
+  }, 
+  "54": {
+    "item_name": "Old Gateau", 
+    "filename": "bciecedf", 
+    "folder": "item", 
+    "desc": ["Old Chateau's hidden specialty.", "It heals all the status problems of a", "single Pokémon."]
+  }, 
+  "55": {
+    "item_name": "Guard Spec", 
+    "filename": "bciecbhj", 
+    "folder": "item", 
+    "desc": ["An item that prevents stat reduction", "among the Trainer's party Pokémon", "for five turns after use."]
+  }, 
+  "56": {
+    "item_name": "Dire Hit", 
+    "filename": "bciedjhb", 
+    "folder": "item", 
+    "desc": ["It raises the critical-hit ratio greatly.", "It can be used only once and wears off", "if the Pokémon is withdrawn."]
+  }, 
+  "57": {
+    "item_name": "X Attack", 
+    "filename": "bciedhbf", 
+    "folder": "item", 
+    "desc": ["An item that raises the Attack stat", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "58": {
+    "item_name": "X Defend", 
+    "filename": "bciedefj", 
+    "folder": "item", 
+    "desc": ["An item that raises the Defense stat", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "59": {
+    "item_name": "X Speed", 
+    "filename": "bciedcad", 
+    "folder": "item", 
+    "desc": ["An item that raises the Speed stat", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "60": {
+    "item_name": "X Accuracy", 
+    "filename": "bcieejjf", 
+    "folder": "item", 
+    "desc": ["An item that raises the accuracy", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "61": {
+    "item_name": "X Special", 
+    "filename": "bcieehdj", 
+    "folder": "item", 
+    "desc": ["An item that raises the Sp. Atk stat", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "62": {
+    "item_name": "X Sp Def", 
+    "filename": "bcieeeid", 
+    "folder": "item", 
+    "desc": ["An item that raises the Sp. Def stat", "of a Pokémon in battle. It wears off if", "the Pokémon is withdrawn."]
+  }, 
+  "63": {
+    "item_name": "Poke Doll", 
+    "filename": "bcieecch", 
+    "folder": "item", 
+    "desc": ["A doll that attracts Pokémon.", "Use it to flee from any battle with a", "wild Pokémon."]
+  }, 
+  "64": {
+    "item_name": "Fluffy Tail", 
+    "filename": "bcibdcfb", 
+    "folder": "item", 
+    "desc": ["An item that attracts Pokémon.", "Use it to flee from any battle with a", "wild Pokémon."]
+  }, 
+  "65": {
+    "item_name": "Blue Flute", 
+    "filename": "bcibcjjf", 
+    "folder": "item", 
+    "desc": ["A toy flute made from blue glass.", "A maniac will buy it for a high price.", null
+    ]
+  }, 
+  "66": {
+    "item_name": "Yellow Flute", 
+    "filename": "bcibchdj", 
+    "folder": "item", 
+    "desc": ["A toy flute made from yellow glass.", "A maniac will buy it for a high price.", null
+    ]
+  }, 
+  "67": {
+    "item_name": "Red Flute", 
+    "filename": "bcibceid", 
+    "folder": "item", 
+    "desc": ["A toy flute made from red glass.", "A maniac will buy it for a high price.", null
+    ]
+  }, 
+  "68": {
+    "item_name": "Black Flute", 
+    "filename": "bcibechf", 
+    "folder": "item", 
+    "desc": ["A toy flute made from black glass.", "A maniac will buy it for a high price.", null
+    ]
+  }, 
+  "69": {
+    "item_name": "White Flute", 
+    "filename": "bcibeabj", 
+    "folder": "item", 
+    "desc": ["A toy flute made from white glass.", "A maniac will buy it for a high price.", null
+    ]
+  }, 
+  "70": {
+    "item_name": "Shoal Salt", 
+    "filename": "bcibdhgd", 
+    "folder": "item", 
+    "desc": ["Pure salt that can be discovered deep", "inside the Shoal Cave.", "A maniac will buy it for a high price."]
+  }, 
+  "71": {
+    "item_name": "Shoal Shell", 
+    "filename": "bcibdfah", 
+    "folder": "item", 
+    "desc": ["A pretty seashell that can be found", "deep inside the Shoal Cave.", "A maniac will buy it for a high price."]
+  }, 
+  "72": {
+    "item_name": "Red Shard", 
+    "filename": "bcibfcjj", 
+    "folder": "item", 
+    "desc": ["A small red shard.", "It appears to be from some sort of", "implement made long ago."]
+  }, 
+  "73": {
+    "item_name": "Blue Shard", 
+    "filename": "bcibfaed", 
+    "folder": "item", 
+    "desc": ["A small blue shard.", "It appears to be from some sort of", "implement made long ago."]
+  }, 
+  "74": {
+    "item_name": "Yellow Shard", 
+    "filename": "bcibehih", 
+    "folder": "item", 
+    "desc": ["A small yellow shard.", "It appears to be from some sort of", "implement made long ago."]
+  }, 
+  "75": {
+    "item_name": "Green Shard", 
+    "filename": "bcibefdb", 
+    "folder": "item", 
+    "desc": ["A small green shard.", "It appears to be from some sort of", "implement made long ago."]
+  }, 
+  "76": {
+    "item_name": "Super Repel", 
+    "filename": "bcibgdcd", 
+    "folder": "item", 
+    "desc": ["An item that prevents weak wild", "Pokémon from appearing for 200 steps", "after its use."]
+  }, 
+  "77": {
+    "item_name": "Max Repel", 
+    "filename": "bcibgagh", 
+    "folder": "item", 
+    "desc": ["An item that prevents weak wild", "Pokémon from appearing for 250 steps", "after its use."]
+  }, 
+  "78": {
+    "item_name": "Escape Rope", 
+    "filename": "bcibfibb", 
+    "folder": "item", 
+    "desc": ["A long, durable rope.", "Use it to escape instantly from a cave", "or a dungeon."]
+  }, 
+  "79": {
+    "item_name": "Repel", 
+    "filename": "bcibffff", 
+    "folder": "item", 
+    "desc": ["An item that prevents weak wild", "Pokémon from appearing for 100 steps", "after its use."]
+  }, 
+  "80": {
+    "item_name": "Sun Stone", 
+    "filename": "bcibhdeh", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is as red as the sun."]
+  }, 
+  "81": {
+    "item_name": "Moon Stone", 
+    "filename": "bcibhajb", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is as black as the night sky."]
+  }, 
+  "82": {
+    "item_name": "Fire Stone", 
+    "filename": "bcibgidf", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is colored orange."]
+  }, 
+  "83": {
+    "item_name": "Thunderstone", 
+    "filename": "bcibgfhj", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It has a thunderbolt pattern."]
+  }, 
+  "84": {
+    "item_name": "Water Stone", 
+    "filename": "bcibidhb", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is a clear, light blue."]
+  }, 
+  "85": {
+    "item_name": "Leaf Stone", 
+    "filename": "bcibibbf", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It has a leaf pattern."]
+  }, 
+  "86": {
+    "item_name": "TinyMushroom", 
+    "filename": "bcibhifj", 
+    "folder": "item", 
+    "desc": ["A small and rare mushroom.", "It is sought after by collectors.", null]
+  }, 
+  "87": {
+    "item_name": "Big Mushroom", 
+    "filename": "bcibhgad", 
+    "folder": "item", 
+    "desc": ["A large and rare mushroom.", "It is sought after by collectors.", null]
+  }, 
+  "88": {
+    "item_name": "Pearl", 
+    "filename": "bcibjdjf", 
+    "folder": "item", 
+    "desc": ["A somewhat-small pearl that sparkles", "in a pretty silver color.", "It can be sold cheaply to shops."]
+  }, 
+  "89": {
+    "item_name": "Big Pearl", 
+    "filename": "bcibjbdj", 
+    "folder": "item", 
+    "desc": ["A quite-large pearl that sparkles in a", "pretty silver color. It can be sold at", "a high price to shops."]
+  }, 
+  "90": {
+    "item_name": "Stardust", 
+    "filename": "bcibiiid", 
+    "folder": "item", 
+    "desc": ["Lovely, red-colored sand with a loose,", "silky feel. It can be sold at a high", "price to shops."]
+  }, 
+  "91": {
+    "item_name": "Star Piece", 
+    "filename": "bcibigch", 
+    "folder": "item", 
+    "desc": ["A shard of a pretty gem that sparkles", "in a red color. It can be sold at a", "high price to shops."]
+  }, 
+  "92": {
+    "item_name": "Nugget", 
+    "filename": "bcicaebj", 
+    "folder": "item", 
+    "desc": ["A nugget of pure gold that gives off a", "lustrous gleam. It can be sold at a", "high price to shops."]
+  }, 
+  "93": {
+    "item_name": "Heart Scale", 
+    "filename": "bcicabgd", 
+    "folder": "item", 
+    "desc": ["A pretty, heart-shaped scale that is", "extremely rare. It glows faintly in the", "colors of the rainbow."]
+  }, 
+  "94": {
+    "item_name": "Honey", 
+    "filename": "bcibjjah", 
+    "folder": "item", 
+    "desc": ["A sweet honey with a lush aroma that", "attracts wild Pokémon when it is used", "in grass, caves, or on special trees."]
+  }, 
+  "99": {
+    "item_name": "Root Fossil", 
+    "filename": "bcicaghf", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "lived in the sea. It appears to be", "part of a plant root."]
+  }, 
+  "100": {
+    "item_name": "Claw Fossil", 
+    "filename": "bciccegh", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "lived in the sea. It appears to be", "part of a claw."]
+  }, 
+  "101": {
+    "item_name": "Helix Fossil", 
+    "filename": "bcicccbb", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "lived in the sea. It appears to be", "part of a seashell."]
+  }, 
+  "102": {
+    "item_name": "Dome Fossil", 
+    "filename": "bcicbjff", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "lived in the sea. It appears to be", "part of a shell."]
+  }, 
+  "103": {
+    "item_name": "Old Amber", 
+    "filename": "bcicbgjj", 
+    "folder": "item", 
+    "desc": ["A piece of amber that contains the", "genetic material of an ancient Pokémon.", "It is clear with a reddish tint."]
+  }, 
+  "104": {
+    "item_name": "Armor Fossil", 
+    "filename": "bcicdejb", 
+    "folder": "item", 
+    "desc": ["A fossil from a prehistoric Pokémon", "that lived on the land. It appears to", "be part of a collar."]
+  }, 
+  "105": {
+    "item_name": "Skull Fossil", 
+    "filename": "bcicdcdf", 
+    "folder": "item", 
+    "desc": ["A fossil from a prehistoric Pokémon", "that lived on the land. It appears to", "be part of a head."]
+  }, 
+  "106": {
+    "item_name": "Rare Bone", 
+    "filename": "bciccjhj", 
+    "folder": "item", 
+    "desc": ["A bone that is extremely valuable for", "Pokémon archeology. It can be sold", "for a high price to shops."]
+  }, 
+  "107": {
+    "item_name": "Shiny Stone", 
+    "filename": "bcicchcd", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It shines with a dazzling light."]
+  }, 
+  "108": {
+    "item_name": "Dusk Stone", 
+    "filename": "bcicefbf", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is as dark as dark can be."]
+  }, 
+  "109": {
+    "item_name": "Dawn Stone", 
+    "filename": "bcicecfj", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It sparkles like eyes."]
+  }, 
+  "110": {
+    "item_name": "Oval Stone", 
+    "filename": "bciceaad", 
+    "folder": "item", 
+    "desc": ["A peculiar stone that makes certain", "species of Pokémon evolve.", "It is shaped like an egg."]
+  }, 
+  "134": {
+    "item_name": "Sweet Heart", 
+    "filename": "bchjhdhj", 
+    "folder": "item", 
+    "desc": ["Very sweet chocolate.", "It restores the HP of one Pokémon", "by only 20 points."]
+  }, 
+  "149": {
+    "item_name": "Cheri Berry", 
+    "filename": "bcicjdhj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from paralysis.", null]
+  }, 
+  "150": {
+    "item_name": "Chesto Berry", 
+    "filename": "bcicjbcd", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from sleep.", null]
+  }, 
+  "151": {
+    "item_name": "Pecha Berry", 
+    "filename": "bciciigh", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from poison.", null]
+  }, 
+  "152": {
+    "item_name": "Rawst Berry", 
+    "filename": "bcidagfj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from a burn.", null]
+  }, 
+  "153": {
+    "item_name": "Aspear Berry", 
+    "filename": "bcidaead", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it defrosts it.", null]
+  }, 
+  "154": {
+    "item_name": "Leppa Berry", 
+    "filename": "bcidabeh", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it restores a move's PP by 10.", null]
+  }, 
+  "155": {
+    "item_name": "Oran Berry", 
+    "filename": "bcicjijb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it heals the user by just 10 HP.", null]
+  }, 
+  "156": {
+    "item_name": "Persim Berry", 
+    "filename": "bcidbgid", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from confusion.", null]
+  }, 
+  "157": {
+    "item_name": "Lum Berry", 
+    "filename": "bcidbech", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it recovers from any status problem.", null]
+  }, 
+  "158": {
+    "item_name": "Sitrus Berry", 
+    "filename": "bcidbbhb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon,", "it heals the user's HP a little.", null]
+  }, 
+  "159": {
+    "item_name": "Figy Berry", 
+    "filename": "bcidajbf", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores the", "user's HP in a pinch, but will cause", "confusion if it hates the taste."]
+  }, 
+  "160": {
+    "item_name": "Wiki Berry", 
+    "filename": "bcidchah", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores the", "user's HP in a pinch, but will cause", "confusion if it hates the taste."]
+  }, 
+  "161": {
+    "item_name": "Mago Berry", 
+    "filename": "bcidcefb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores the", "user's HP in a pinch, but will cause", "confusion if it hates the taste."]
+  }, 
+  "162": {
+    "item_name": "Aguav Berry", 
+    "filename": "bcidcbjf", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores the", "user's HP in a pinch, but will cause", "confusion if it hates the taste."]
+  }, 
+  "163": {
+    "item_name": "Iapapa Berry", 
+    "filename": "bcidbjdj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores the", "user's HP in a pinch, but will cause", "confusion if it hates the taste."]
+  }, 
+  "164": {
+    "item_name": "Razz Berry", 
+    "filename": "bciddhdb", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "165": {
+    "item_name": "Bluk Berry", 
+    "filename": "bciddehf", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "166": {
+    "item_name": "Nanab Berry", 
+    "filename": "bciddcbj", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "167": {
+    "item_name": "Wepear Berry", 
+    "filename": "bcidcjgd", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "168": {
+    "item_name": "Pinap Berry", 
+    "filename": "bcidehff", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "169": {
+    "item_name": "Pomeg Berry", 
+    "filename": "bcideejj", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base HP.", null
+    ]
+  }, 
+  "170": {
+    "item_name": "Kelpsy Berry", 
+    "filename": "bcideced", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base", "Attack stat."]
+  }, 
+  "171": {
+    "item_name": "Qualot Berry", 
+    "filename": "bciddjih", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base", "Defense stat."]
+  }, 
+  "172": {
+    "item_name": "Hondew Berry", 
+    "filename": "bcidfhhj", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base", "Sp. Atk stat."]
+  }, 
+  "173": {
+    "item_name": "Grepa Berry", 
+    "filename": "bcidffcd", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base", "Sp. Def stat."]
+  }, 
+  "174": {
+    "item_name": "Tamato Berry", 
+    "filename": "bcidfcgh", 
+    "folder": "nuts", 
+    "desc": ["Using it on a Pokémon makes it more", "friendly, but it also lowers its base", "Speed stat."]
+  }, 
+  "175": {
+    "item_name": "Cornn Berry", 
+    "filename": "bcidfabb", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "176": {
+    "item_name": "Magost Berry", 
+    "filename": "bcidgiad", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "177": {
+    "item_name": "Rabuta Berry", 
+    "filename": "bcidgfeh", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "178": {
+    "item_name": "Nomel Berry", 
+    "filename": "bcidgcjb", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "179": {
+    "item_name": "Spelon Berry", 
+    "filename": "bcidgadf", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "180": {
+    "item_name": "Pamtre Berry", 
+    "filename": "bcidhich", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "181": {
+    "item_name": "Watmel Berry", 
+    "filename": "bcidhfhb", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "182": {
+    "item_name": "Durin Berry", 
+    "filename": "bcidhdbf", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "183": {
+    "item_name": "Belue Berry", 
+    "filename": "bcidhafj", 
+    "folder": "nuts", 
+    "desc": ["A Berry which is very rare in the", "Unova region.", "A maniac will buy it for a high price."]
+  }, 
+  "184": {
+    "item_name": "Occa Berry", 
+    "filename": "bcidiifb", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Fire-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "185": {
+    "item_name": "Passho Berry", 
+    "filename": "bcidifjf", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Water-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "186": {
+    "item_name": "Wacan Berry", 
+    "filename": "bcididdj", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Electric-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "187": {
+    "item_name": "Rindo Berry", 
+    "filename": "bcidiaid", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Grass-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "188": {
+    "item_name": "Yache Berry", 
+    "filename": "bcidjihf", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Ice-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "189": {
+    "item_name": "Chople Berry", 
+    "filename": "bcidjgbj", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Fighting-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "190": {
+    "item_name": "Kebia Berry", 
+    "filename": "bcidjdgd", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Poison-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "191": {
+    "item_name": "Shuca Berry", 
+    "filename": "bcidjbah", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Ground-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "192": {
+    "item_name": "Coba Berry", 
+    "filename": "bcieaijj", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Flying-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "193": {
+    "item_name": "Payapa Berry", 
+    "filename": "bcieaged", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Psychic-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "194": {
+    "item_name": "Tanga Berry", 
+    "filename": "bcieadih", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Bug-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "195": {
+    "item_name": "Charti Berry", 
+    "filename": "bcieabdb", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Rock-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "196": {
+    "item_name": "Kasib Berry", 
+    "filename": "bciebjcd", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Ghost-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "197": {
+    "item_name": "Haban Berry", 
+    "filename": "bciebggh", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Dragon-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "198": {
+    "item_name": "Colbur Berry", 
+    "filename": "bciebebb", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Dark-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "199": {
+    "item_name": "Babiri Berry", 
+    "filename": "bciebbff", 
+    "folder": "nuts", 
+    "desc": ["Weakens a supereffective Steel-type", "attack against the holding Pokémon.", null
+    ]
+  }, 
+  "200": {
+    "item_name": "Chilan Berry", 
+    "filename": "bciecjeh", 
+    "folder": "nuts", 
+    "desc": ["Weakens a Normal-type attack against", "the Pokémon holding this berry.", null
+    ]
+  }, 
+  "201": {
+    "item_name": "Liechi Berry", 
+    "filename": "bciecgjb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "Attack stat in a pinch.", null]
+  }, 
+  "202": {
+    "item_name": "Ganlon Berry", 
+    "filename": "bciecedf", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "Defense stat in a pinch.", null]
+  }, 
+  "203": {
+    "item_name": "Salac Berry", 
+    "filename": "bciecbhj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "Speed stat in a pinch.", null]
+  }, 
+  "204": {
+    "item_name": "Petaya Berry", 
+    "filename": "bciedjhb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "Sp. Atk stat in a pinch.", null]
+  }, 
+  "205": {
+    "item_name": "Apicot Berry", 
+    "filename": "bciedhbf", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "Sp. Def stat in a pinch.", null]
+  }, 
+  "206": {
+    "item_name": "Lansat Berry", 
+    "filename": "bciedefj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises its", "critical-hit ratio in a pinch.", null]
+  }, 
+  "207": {
+    "item_name": "Starf Berry", 
+    "filename": "bciedcad", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it sharply raises", "one of its stats in a pinch.", null
+    ]
+  }, 
+  "208": {
+    "item_name": "Enigma Berry", 
+    "filename": "bcieejjf", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it restores", "its HP if it is hit by any", "supereffective attack."]
+  }, 
+  "209": {
+    "item_name": "Micle Berry", 
+    "filename": "bcieehdj", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it raises the", "accuracy of a move just once in a pinch.", null
+    ]
+  }, 
+  "210": {
+    "item_name": "Custap Berry", 
+    "filename": "bcieeeid", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon, it gets to move", "first just once in a pinch.", null]
+  }, 
+  "211": {
+    "item_name": "Jaboca Berry", 
+    "filename": "bcieecch", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon and a physical", "attack lands, the attacker also", "takes damage."]
+  }, 
+  "212": {
+    "item_name": "Rowap Berry", 
+    "filename": "bcibdcfb", 
+    "folder": "nuts", 
+    "desc": ["If held by a Pokémon and a special", "attack lands, the attacker also", "takes damage."]
+  }, 
+  "214": {
+    "item_name": "White Herb", 
+    "filename": "bchifajb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It restores any lowered stat in", "battle. It can be used only once."]
+  }, 
+  "215": {
+    "item_name": "Macho Brace", 
+    "filename": "bchieidf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "a stiff and heavy brace that promotes", "strong growth but lowers Speed."]
+  }, 
+  "216": {
+    "item_name": "Exp Share", 
+    "filename": "bchiggch", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "The holder gets a share of a battle's", "Exp. Points without battling."]
+  }, 
+  "217": {
+    "item_name": "Quick Claw", 
+    "filename": "bchigdhb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "A light, sharp claw that lets the", "bearer move first occasionally."]
+  }, 
+  "218": {
+    "item_name": "Soothe Bell", 
+    "filename": "bchigbbf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "a bell with a comforting chime that", "calms the holder and makes it friendly."]
+  }, 
+  "219": {
+    "item_name": "Mental Herb", 
+    "filename": "bchififj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It", "snaps the holder out of infatuation.", "It can be used only once."]
+  }, 
+  "220": {
+    "item_name": "Choice Band", 
+    "filename": "bchihgfb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "This headband ups Attack, but allows", "the use of only one of its moves."]
+  }, 
+  "221": {
+    "item_name": "King's Rock", 
+    "filename": "bchihdjf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "When the holder inflicts damage,", "the target may flinch."]
+  }, 
+  "222": {
+    "item_name": "SilverPowder", 
+    "filename": "bchihbdj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a shiny, silver powder that ups", "the power of Bug-type moves."]
+  }, 
+  "223": {
+    "item_name": "Amulet Coin", 
+    "filename": "bchigiid", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It doubles a battle's prize money if", "the holding Pokémon joins in."]
+  }, 
+  "224": {
+    "item_name": "Cleanse Tag", 
+    "filename": "bchiighf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It helps keep wild Pokémon away if the", "holder is the first one in the party."]
+  }, 
+  "225": {
+    "item_name": "Soul Dew", 
+    "filename": "bchiiebj", 
+    "folder": "item", 
+    "desc": ["A wondrous orb to be held by Latios", "or Latias. It raises both the", "Sp. Atk and Sp. Def stats."]
+  }, 
+  "226": {
+    "item_name": "Deepseatooth", 
+    "filename": "bchiibgd", 
+    "folder": "item", 
+    "desc": ["An item to be held by Clamperl.", "A fang that gleams a sharp silver, it", "raises the Sp. Atk stat."]
+  }, 
+  "227": {
+    "item_name": "Deepseascale", 
+    "filename": "bchihjah", 
+    "folder": "item", 
+    "desc": ["An item to be held by Clamperl.", "A scale that shines a faint pink, it", "raises the Sp. Def stat."]
+  }, 
+  "228": {
+    "item_name": "Smoke Ball", 
+    "filename": "bchijgjj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It enables the holder to flee from any", "wild Pokémon without fail."]
+  }, 
+  "229": {
+    "item_name": "Everstone", 
+    "filename": "bchijeed", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "The Pokémon holding this peculiar stone", "is prevented from evolving."]
+  }, 
+  "230": {
+    "item_name": "Focus Band", 
+    "filename": "bchijbih", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "The holder may endure a potential KO", "attack, leaving it with just 1 HP."]
+  }, 
+  "231": {
+    "item_name": "Lucky Egg", 
+    "filename": "bchiijdb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is an egg filled with happiness that", "earns extra Exp. Points in battle."]
+  }, 
+  "232": {
+    "item_name": "Scope Lens", 
+    "filename": "bchjahcd", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a lens that boosts the holder's", "critical-hit ratio."]
+  }, 
+  "233": {
+    "item_name": "Metal Coat", 
+    "filename": "bchjaegh", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a special metallic film that ups", "the power of Steel-type moves."]
+  }, 
+  "234": {
+    "item_name": "Leftovers", 
+    "filename": "bchjacbb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "The holder's HP is gradually restored", "during battle."]
+  }, 
+  "235": {
+    "item_name": "Dragon Scale", 
+    "filename": "bchijjff", 
+    "folder": "item", 
+    "desc": ["A thick and tough scale.", "Dragon-type Pokémon may be holding", "this item when caught."]
+  }, 
+  "236": {
+    "item_name": "Light Ball", 
+    "filename": "bchjbheh", 
+    "folder": "item", 
+    "desc": ["An item to be held by Pikachu.", "It is a puzzling orb that raises", "the Attack and Sp. Atk stat."]
+  }, 
+  "237": {
+    "item_name": "Soft Sand", 
+    "filename": "bchjbejb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a loose, silky sand that boosts", "the power of Ground-type moves."]
+  }, 
+  "238": {
+    "item_name": "Hard Stone", 
+    "filename": "bchjbcdf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is an unbreakable stone that ups", "the power of Rock-type moves."]
+  }, 
+  "239": {
+    "item_name": "Miracle Seed", 
+    "filename": "bchjajhj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a seed imbued with life that ups", "the power of Grass-type moves."]
+  }, 
+  "240": {
+    "item_name": "Blackglasses", 
+    "filename": "bchjchhb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a shady-looking pair of glasses", "that boosts Dark-type moves."]
+  }, 
+  "241": {
+    "item_name": "Black Belt", 
+    "filename": "bchjcfbf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a belt that boosts determination", "and Fighting-type moves."]
+  }, 
+  "242": {
+    "item_name": "Magnet", 
+    "filename": "bchjccfj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a powerful magnet that boosts", "the power of Electric-type moves."]
+  }, 
+  "243": {
+    "item_name": "Mystic Water", 
+    "filename": "bchjcaad", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a teardrop-shaped gem that ups", "the power of Water-type moves."]
+  }, 
+  "244": {
+    "item_name": "Sharp Beak", 
+    "filename": "bchjdhjf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a long, sharp beak that boosts", "the power of Flying-type moves."]
+  }, 
+  "245": {
+    "item_name": "Poison Barb", 
+    "filename": "bchjdfdj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a small, poisonous barb that ups", "the power of Poison-type moves."]
+  }, 
+  "246": {
+    "item_name": "NeverMeltIce", 
+    "filename": "bchjdcid", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a piece of ice that repels heat", "and boosts Ice-type moves."]
+  }, 
+  "247": {
+    "item_name": "Spell Tag", 
+    "filename": "bchjdach", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a sinister, eerie tag that boosts", "the power of Ghost-type moves."]
+  }, 
+  "248": {
+    "item_name": "TwistedSpoon", 
+    "filename": "bchjeibj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "a spoon imbued with telekinetic power", "that boosts Psychic-type moves."]
+  }, 
+  "249": {
+    "item_name": "Charcoal", 
+    "filename": "bchjefgd", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a combustible fuel that boosts", "the power of Fire-type moves."]
+  }, 
+  "250": {
+    "item_name": "Dragon Fang", 
+    "filename": "bchjedah", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a hard and sharp fang that ups", "the power of Dragon-type moves."]
+  }, 
+  "251": {
+    "item_name": "Silk Scarf", 
+    "filename": "bchjeafb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a sumptuous scarf that boosts", "the power of Normal-type moves."]
+  }, 
+  "252": {
+    "item_name": "Up Grade", 
+    "filename": "bchjfied", 
+    "folder": "item", 
+    "desc": ["A transparent device filled with all", "sorts of data.", "It was produced by Silph Co."]
+  }, 
+  "253": {
+    "item_name": "Shell Bell", 
+    "filename": "bchjffih", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "The holder's HP is restored a little", "every time it inflicts damage."]
+  }, 
+  "254": {
+    "item_name": "Sea Incense", 
+    "filename": "bchjfddb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "incense with a curious aroma that", "boosts the power of Water-type moves."]
+  }, 
+  "255": {
+    "item_name": "Lax Incense", 
+    "filename": "bchjfahf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. The", "tricky aroma of this incense may make", "attacks miss the holder."]
+  }, 
+  "256": {
+    "item_name": "Lucky Punch", 
+    "filename": "bchgeajj", 
+    "folder": "item", 
+    "desc": ["An item to be held by Chansey. It is a", "pair of gloves that boosts Chansey's", "critical-hit ratio."]
+  }, 
+  "257": {
+    "item_name": "Metal Powder", 
+    "filename": "bchgdied", 
+    "folder": "item", 
+    "desc": ["An item to be held by Ditto.", "Extremely fine yet hard, this odd", "powder boosts the Defense stat."]
+  }, 
+  "258": {
+    "item_name": "Thick Club", 
+    "filename": "bchgdfih", 
+    "folder": "item", 
+    "desc": ["An item to be held by Cubone or", "Marowak. It is a hard bone of some", "sort that boosts the Attack stat."]
+  }, 
+  "259": {
+    "item_name": "Stick", 
+    "filename": "bchgdddb", 
+    "folder": "item", 
+    "desc": ["An item to be held by Farfetch'd. It is", "a very long and stiff stalk of leek", "that boosts the critical-hit ratio."]
+  }, 
+  "260": {
+    "item_name": "Red Scarf", 
+    "filename": "bchgfbcd", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the Cool aspect of the", "holder in a Contest."]
+  }, 
+  "261": {
+    "item_name": "Blue Scarf", 
+    "filename": "bchgeigh", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the Beauty aspect of the", "holder in a Contest."]
+  }, 
+  "262": {
+    "item_name": "Pink Scarf", 
+    "filename": "bchgegbb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the Cute aspect of the", "holder in a Contest."]
+  }, 
+  "263": {
+    "item_name": "Green Scarf", 
+    "filename": "bchgedff", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the Smart aspect of the", "holder in a Contest."]
+  }, 
+  "264": {
+    "item_name": "Yellow Scarf", 
+    "filename": "bchggbeh", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the Tough aspect of the", "holder in a Contest."]
+  }, 
+  "265": {
+    "item_name": "Wide Lens", 
+    "filename": "bchgfijb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a magnifying lens that slightly", "boosts the accuracy of moves."]
+  }, 
+  "266": {
+    "item_name": "Muscle Band", 
+    "filename": "bchgfgdf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a headband that slightly boosts", "the power of physical moves."]
+  }, 
+  "267": {
+    "item_name": "Wise Glasses", 
+    "filename": "bchgfdhj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "a thick pair of glasses that slightly", "boosts the power of special moves."]
+  }, 
+  "268": {
+    "item_name": "Expert Belt", 
+    "filename": "bchghbhb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "a well-worn belt that slightly boosts", "the power of supereffective moves."]
+  }, 
+  "269": {
+    "item_name": "Light Clay", 
+    "filename": "bchggjbf", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of barrier moves like Light", "Screen and Reflect used by the holder."]
+  }, 
+  "270": {
+    "item_name": "Life Orb", 
+    "filename": "bchgggfj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It boosts the power of moves, but at", "the cost of some HP on each hit."]
+  }, 
+  "271": {
+    "item_name": "Power Herb", 
+    "filename": "bchggead", 
+    "folder": "item", 
+    "desc": ["A single-use item to be held by a", "Pokémon. It allows the immediate use of", "a move that charges on the first turn."]
+  }, 
+  "272": {
+    "item_name": "Toxic Orb", 
+    "filename": "bchgibjf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a bizarre orb that badly poisons", "the holder in battle."]
+  }, 
+  "273": {
+    "item_name": "Flame Orb", 
+    "filename": "bchghjdj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a bizarre orb that inflicts a", "burn on the holder in battle."]
+  }, 
+  "274": {
+    "item_name": "Quick Powder", 
+    "filename": "bchghgid", 
+    "folder": "item", 
+    "desc": ["An item to be held by Ditto.", "Extremely fine yet hard, this odd", "powder boosts the Speed stat."]
+  }, 
+  "275": {
+    "item_name": "Focus Sash", 
+    "filename": "bchghech", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. If it", "has full HP, the holder will endure one", "potential KO attack, leaving 1 HP."]
+  }, 
+  "276": {
+    "item_name": "Zoom Lens", 
+    "filename": "bchgjcbj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "If the holder moves after its", "target, its accuracy will be boosted."]
+  }, 
+  "277": {
+    "item_name": "Metronome", 
+    "filename": "bchgijgd", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that boosts a move", "used consecutively. Its effect is", "reset if another move is used."]
+  }, 
+  "278": {
+    "item_name": "Iron Ball", 
+    "filename": "bchgihah", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that cuts Speed.", "It makes Flying-type and levitating", "holders susceptible to Ground moves."]
+  }, 
+  "279": {
+    "item_name": "Lagging Tail", 
+    "filename": "bchgiefb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is tremendously heavy and makes", "the holder move slower than usual."]
+  }, 
+  "280": {
+    "item_name": "Destiny Knot", 
+    "filename": "bchhaced", 
+    "folder": "item", 
+    "desc": ["A long, thin, bright-red string to", "be held by a Pokémon. If the holder", "becomes infatuated, the foe does too."]
+  }, 
+  "281": {
+    "item_name": "Black Sludge", 
+    "filename": "bchgjjih", 
+    "folder": "item", 
+    "desc": ["A held item that gradually restores", "the HP of Poison-type Pokémon.", "It inflicts damage on all other types."]
+  }, 
+  "282": {
+    "item_name": "Icy Rock", 
+    "filename": "bchgjhdb", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of the move Hail used by the", "holder."]
+  }, 
+  "283": {
+    "item_name": "Smooth Rock", 
+    "filename": "bchgjehf", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of the move Sandstorm used", "by the holder."]
+  }, 
+  "284": {
+    "item_name": "Heat Rock", 
+    "filename": "bchhbcgh", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of the move Sunny Day used", "by the holder."]
+  }, 
+  "285": {
+    "item_name": "Damp Rock", 
+    "filename": "bchhbabb", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of the move Rain Dance used", "by the holder."]
+  }, 
+  "286": {
+    "item_name": "Grip Claw", 
+    "filename": "bchhahff", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that extends the", "duration of multiturn attacks like", "Bind and Wrap."]
+  }, 
+  "287": {
+    "item_name": "Choice Scarf", 
+    "filename": "bchhaejj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "This scarf boosts Speed, but allows", "the use of only one of its moves."]
+  }, 
+  "288": {
+    "item_name": "Sticky Barb", 
+    "filename": "bchhccjb", 
+    "folder": "item", 
+    "desc": ["A held item that damages the holder on", "every turn. It may latch on to foes and", "allies that touch the holder."]
+  }, 
+  "289": {
+    "item_name": "Power Bracer", 
+    "filename": "bchhcadf", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "Attack gain on leveling, but reduces", "the Speed stat."]
+  }, 
+  "290": {
+    "item_name": "Power Belt", 
+    "filename": "bchhbhhj", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "Defense gain on leveling, but reduces", "the Speed stat."]
+  }, 
+  "291": {
+    "item_name": "Power Lens", 
+    "filename": "bchhbfcd", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "Sp. Atk gain on leveling, but reduces", "the Speed stat."]
+  }, 
+  "292": {
+    "item_name": "Power Band", 
+    "filename": "bchhddbf", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "Sp. Def gain on leveling, but reduces", "the Speed stat."]
+  }, 
+  "293": {
+    "item_name": "Power Anklet", 
+    "filename": "bchhdafj", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "Speed gain on leveling, but reduces", "the Speed stat."]
+  }, 
+  "294": {
+    "item_name": "Power Weight", 
+    "filename": "bchhciad", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that promotes", "HP gain on leveling, but reduces the", "Speed stat."]
+  }, 
+  "295": {
+    "item_name": "Shed Shell", 
+    "filename": "bchhcfeh", 
+    "folder": "item", 
+    "desc": ["A tough, discarded carapace to be held", "by a Pokémon. It enables the holder to", 
+      "switch with a waiting Pokémon in battle."]
+  }, 
+  "296": {
+    "item_name": "Big Root", 
+    "filename": "bchheddj", 
+    "folder": "item", 
+    "desc": ["A Pokémon held item that boosts the", "power of HP-stealing moves to let the", "holder recover more HP."]
+  }, 
+  "297": {
+    "item_name": "Choice Specs", 
+    "filename": "bchheaid", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. These", "distinctive glasses boost Sp. Atk but", 
+      "allow the use of only one of its moves."]
+  }, 
+  "298": {
+    "item_name": "Flame Plate", 
+    "filename": "bchhdich", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Fire-type moves."]
+  }, 
+  "299": {
+    "item_name": "Splash Plate", 
+    "filename": "bchhdfhb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Water-type moves."]
+  }, 
+  "300": {
+    "item_name": "Zap Plate", 
+    "filename": "bchhfdgd", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Electric-type moves."]
+  }, 
+  "301": {
+    "item_name": "Meadow Plate", 
+    "filename": "bchhfbah", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Grass-type moves."]
+  }, 
+  "302": {
+    "item_name": "Icicle Plate", 
+    "filename": "bchheifb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Ice-type moves."]
+  }, 
+  "303": {
+    "item_name": "Fist Plate", 
+    "filename": "bchhefjf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Fighting-type moves."]
+  }, 
+  "304": {
+    "item_name": "Toxic Plate", 
+    "filename": "bchhgdih", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Poison-type moves."]
+  }, 
+  "305": {
+    "item_name": "Earth Plate", 
+    "filename": "bchhgbdb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Ground-type moves."]
+  }, 
+  "306": {
+    "item_name": "Sky Plate", 
+    "filename": "bchhfihf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Flying-type moves."]
+  }, 
+  "307": {
+    "item_name": "Mind Plate", 
+    "filename": "bchhfgbj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Psychic-type moves."]
+  }, 
+  "308": {
+    "item_name": "Insect Plate", 
+    "filename": "bchhhebb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Bug-type moves."]
+  }, 
+  "309": {
+    "item_name": "Stone Plate", 
+    "filename": "bchhhbff", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Rock-type moves."]
+  }, 
+  "310": {
+    "item_name": "Spooky Plate", 
+    "filename": "bchhgijj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Ghost-type moves."]
+  }, 
+  "311": {
+    "item_name": "Draco Plate", 
+    "filename": "bchhgged", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Dragon-type moves."]
+  }, 
+  "312": {
+    "item_name": "Dread Plate", 
+    "filename": "bchhiedf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Dark-type moves."]
+  }, 
+  "313": {
+    "item_name": "Iron Plate", 
+    "filename": "bchhibhj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a stone tablet that boosts the", "power of Steel-type moves."]
+  }, 
+  "314": {
+    "item_name": "Odd Incense", 
+    "filename": "bchhhjcd", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "an exotic-smelling incense that boosts", "the power of Psychic-type moves."]
+  }, 
+  "315": {
+    "item_name": "Rock Incense", 
+    "filename": "bchhhggh", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "an exotic-smelling incense that boosts", "the power of Rock-type moves."]
+  }, 
+  "316": {
+    "item_name": "Full Incense", 
+    "filename": "bchhjefj", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "an exotic-smelling incense that makes", "the holder bloated and slow moving."]
+  }, 
+  "317": {
+    "item_name": "Wave Incense", 
+    "filename": "bchhjcad", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "incense with a curious aroma that", "boosts the power of Water-type moves."]
+  }, 
+  "318": {
+    "item_name": "Rose Incense", 
+    "filename": "bchhijeh", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon. It is", "an exotic-smelling incense that boosts", "the power of Grass-type moves."]
+  }, 
+  "319": {
+    "item_name": "Luck Incense", 
+    "filename": "bchhigjb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It doubles a battle's prize money if", "the holding Pokémon joins in."]
+  }, 
+  "320": {
+    "item_name": "Pure Incense", 
+    "filename": "bchehhbf", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It helps keep wild Pokémon away if the", "holder is the first one in the party."]
+  }, 
+  "321": {
+    "item_name": "Protector", 
+    "filename": "bchehefj", 
+    "folder": "item", 
+    "desc": ["A protective item of some sort.", "It is extremely stiff and heavy.", "It is loved by a certain Pokémon."]
+  }, 
+  "322": {
+    "item_name": "Electirizer", 
+    "filename": "bchehcad", 
+    "folder": "item", 
+    "desc": ["A box packed with a tremendous", "amount of electric energy.", "It is loved by a certain Pokémon."]
+  }, 
+  "323": {
+    "item_name": "Magmarizer", 
+    "filename": "bchegjeh", 
+    "folder": "item", 
+    "desc": ["A box packed with a tremendous", "amount of magma energy.", "It is loved by a certain Pokémon."]
+  }, 
+  "324": {
+    "item_name": "Dubious Disc", 
+    "filename": "bcheihdj", 
+    "folder": "item", 
+    "desc": ["A transparent device overflowing with", "dubious data.", "Its producer is unknown."]
+  }, 
+  "325": {
+    "item_name": "Reaper Cloth", 
+    "filename": "bcheieid", 
+    "folder": "item", 
+    "desc": ["A cloth imbued with horrifyingly strong", "spiritual energy.", "It is loved by a certain Pokémon."]
+  }, 
+  "326": {
+    "item_name": "Razor Claw", 
+    "filename": "bcheicch", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It is a sharply hooked claw that ups", "the holder's critical-hit ratio."]
+  }, 
+  "327": {
+    "item_name": "Razor Fang", 
+    "filename": "bchehjhb", 
+    "folder": "item", 
+    "desc": ["An item to be held by a Pokémon.", "It may make foes and allies flinch", "when the holder inflicts damage."]
+  }, 
+  "537": {
+    "item_name": "Prism Scale", 
+    "filename": "bchaeefb", 
+    "folder": "item", 
+    "desc": ["A mysterious scale that evolves", "certain Pokémon.", "It shines in rainbow colors."]
+  }, 
+  "538": {
+    "item_name": "Eviolite", 
+    "filename": "bchaebjf", 
+    "folder": "item", 
+    "desc": ["A mysterious evolutionary lump. When", "held, it raises the Defense and Sp. Def", "of a Pokémon that can still evolve."]
+  }, 
+  "539": {
+    "item_name": "Float Stone", 
+    "filename": "bchadjdj", 
+    "folder": "item", 
+    "desc": ["A very light stone. It reduces the", "weight of a Pokémon when held.", null]
+  }, 
+  "540": {
+    "item_name": "Rocky Helmet", 
+    "filename": "bchafhdb", 
+    "folder": "item", 
+    "desc": ["If the holder of this item takes damage,", "the attacker will also be damaged", "upon contact."]
+  }, 
+  "541": {
+    "item_name": "Air Balloon", 
+    "filename": "bchafehf", 
+    "folder": "item", 
+    "desc": ["When held by a Pokémon, the Pokémon", "will float into the air. When the holder", "is attacked, this item will burst."]
+  }, 
+  "542": {
+    "item_name": "Red Card", 
+    "filename": "bchafcbj", 
+    "folder": "item", 
+    "desc": ["A card with a mysterious power. When", "the holder is struck by a foe, the", "attacker is removed from battle."]
+  }, 
+  "543": {
+    "item_name": "Ring Target", 
+    "filename": "bchaejgd", 
+    "folder": "item", 
+    "desc": ["Moves that would otherwise have no", "effect will land on the Pokémon that", "holds it."]
+  }, 
+  "544": {
+    "item_name": "Binding Band", 
+    "filename": "bchaghff", 
+    "folder": "item", 
+    "desc": ["A band that increases the power of", "binding moves when held.", null]
+  }, 
+  "545": {
+    "item_name": "Absorb Bulb", 
+    "filename": "bchagejj", 
+    "folder": "item", 
+    "desc": ["A consumable bulb. If the holder is hit", "by a Water-type move, its Sp. Atk", "will rise."]
+  }, 
+  "546": {
+    "item_name": "Cell Battery", 
+    "filename": "bchagced", 
+    "folder": "item", 
+    "desc": ["A consumable battery. If the", "holder is hit by an Electric-type", "move, its Attack will rise."]
+  }, 
+  "547": {
+    "item_name": "Eject Button", 
+    "filename": "bchafjih", 
+    "folder": "item", 
+    "desc": ["If the holder is hit by an attack, it will", "switch with another Pokémon in", "your party."]
+  }, 
+  "548": {
+    "item_name": "Fire Gem", 
+    "filename": "bchahhhj", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of fire. When", "held, it strengthens the power of a", "Fire-type move only once."]
+  }, 
+  "549": {
+    "item_name": "Water Gem", 
+    "filename": "bchahfcd", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of water. When", "held, it strengthens the power of a", "Water-type move only once."]
+  }, 
+  "550": {
+    "item_name": "Electric Gem", 
+    "filename": "bchahcgh", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of electricity.", "When held, it strengthens the power of", "an Electric-type move only once."]
+  }, 
+  "551": {
+    "item_name": "Grass Gem", 
+    "filename": "bchahabb", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of nature. When", "held, it strengthens the power of a", "Grass-type move only once."]
+  }, 
+  "552": {
+    "item_name": "Ice Gem", 
+    "filename": "bchaiiad", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of ice. When held,", "it strengthens the power of an", "Ice-type move only once."]
+  }, 
+  "553": {
+    "item_name": "Fighting Gem", 
+    "filename": "bchaifeh", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of combat. When", "held, it strengthens the power of a", "Fighting-type move only once."]
+  }, 
+  "554": {
+    "item_name": "Poison Gem", 
+    "filename": "bchaicjb", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of poison. When", "held, it strengthens the power of a", "Poison-type move only once."]
+  }, 
+  "555": {
+    "item_name": "Ground Gem", 
+    "filename": "bchaiadf", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of land. When", "held, it strengthens the power of a", "Ground-type move only once."]
+  }, 
+  "556": {
+    "item_name": "Flying Gem", 
+    "filename": "bchajich", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of air. When held,", "it strengthens the power of a", "Flying-type move only once."]
+  }, 
+  "557": {
+    "item_name": "Psychic Gem", 
+    "filename": "bchajfhb", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of the mind. When", "held, it strengthens the power of a", "Psychic-type move only once."]
+  }, 
+  "558": {
+    "item_name": "Bug Gem", 
+    "filename": "bchajdbf", 
+    "folder": "item", 
+    "desc": ["A gem with an insect-like essence.", "When held, it strengthens the power of", "a Bug-type move only once."]
+  }, 
+  "559": {
+    "item_name": "Rock Gem", 
+    "filename": "bchajafj", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of rock. When", "held, it strengthens the power of a", "Rock-type move only once."]
+  }, 
+  "560": {
+    "item_name": "Ghost Gem", 
+    "filename": "bchbaifb", 
+    "folder": "item", 
+    "desc": ["A gem with a spectral essence. When", "held, it strengthens the power of a", "Ghost-type move only once."]
+  }, 
+  "561": {
+    "item_name": "Dragon Gem", 
+    "filename": "bchbafjf", 
+    "folder": "item", 
+    "desc": ["A gem with a draconic essence.", "When held, it strengthens the power", "of a Dragon-type move only once."]
+  }, 
+  "562": {
+    "item_name": "Dark Gem", 
+    "filename": "bchbaddj", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of darkness.", "When held, it strengthens the power of", "a Dark-type move only once."]
+  }, 
+  "563": {
+    "item_name": "Steel Gem", 
+    "filename": "bchbaaid", 
+    "folder": "item", 
+    "desc": ["A gem with an essence of steel. When", "held, it strengthens the power of a", "Steel-type move only once."]
+  }, 
+  "564": {
+    "item_name": "Normal Gem", 
+    "filename": "bchbbihf", 
+    "folder": "item", 
+    "desc": ["A gem with an ordinary essence. When", "held, it strengthens the power of a", "Normal-type move only once."]
+  }, 
+  "565": {
+    "item_name": "Health Wing", 
+    "filename": "bchbbgbj", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base HP of a", "single Pokémon."]
+  }, 
+  "566": {
+    "item_name": "Muscle Wing", 
+    "filename": "bchbbdgd", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base Attack stat", "of a single Pokémon."]
+  }, 
+  "567": {
+    "item_name": "Resist Wing", 
+    "filename": "bchbbbah", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base Defense", "stat of a single Pokémon."]
+  }, 
+  "568": {
+    "item_name": "Genius Wing", 
+    "filename": "bchbcijj", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base Sp. Atk", "stat of a single Pokémon."]
+  }, 
+  "569": {
+    "item_name": "Clever Wing", 
+    "filename": "bchbcged", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base Sp. Def", "stat of a single Pokémon."]
+  }, 
+  "570": {
+    "item_name": "Swift Wing", 
+    "filename": "bchbcdih", 
+    "folder": "item", 
+    "desc": ["An item for use on a Pokémon. It", "slightly increases the base Speed stat", "of a single Pokémon."]
+  }, 
+  "571": {
+    "item_name": "Pretty Wing", 
+    "filename": "bchbcbdb", 
+    "folder": "item", 
+    "desc": ["Though this feather is beautiful, it's", "just a regular feather and has no", "effect on Pokémon."]
+  }, 
+  "572": {
+    "item_name": "Cover Fossil", 
+    "filename": "bchbdjcd", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "lived in the sea in ancient times.", "It appears to be part of its back."]
+  }, 
+  "573": {
+    "item_name": "Plume Fossil", 
+    "filename": "bchbdggh", 
+    "folder": "item", 
+    "desc": ["A fossil of an ancient Pokémon that", "flew in the sky in ancient times.", "It appears to be part of its wing."]
+  }, 
+  "575": {
+    "item_name": "Pass Orb", 
+    "filename": "bchbdbff", 
+    "folder": "item", 
+    "desc": ["A mysterious orb containing the power", "of the Unova region, to be used when", "generating Pass Power."]
+  }, 
+  "577": {
+    "item_name": "Poke Toy", 
+    "filename": "bcgibjcd", 
+    "folder": "item", 
+    "desc": ["An item that attracts Pokémon.", "Use it to flee from any battle with a", "wild Pokémon."]
+  }, 
+  "580": {
+    "item_name": "Balmmushroom", 
+    "filename": "bcgidcad", 
+    "folder": "item", 
+    "desc": ["A rare mushroom which gives off a nice", "fragrance.", "A maniac will buy it for a high price."]
+  }, 
+  "581": {
+    "item_name": "Big Nugget", 
+    "filename": "bcgicjeh", 
+    "folder": "item", 
+    "desc": ["A big nugget of pure gold that gives off", "a lustrous gleam.", "A maniac will buy it for a high price."]
+  }, 
+  "582": {
+    "item_name": "Pearl String", 
+    "filename": "bcgicgjb", 
+    "folder": "item", 
+    "desc": ["Very large pearls that sparkle in a", "pretty silver color.", "A maniac will buy them for a high price."]
+  }, 
+  "583": {
+    "item_name": "Comet Shard", 
+    "filename": "bcgicedf", 
+    "folder": "item", 
+    "desc": ["A shard which fell to the ground when", "a comet approached.", "A maniac will buy it for a high price."]
+  }, 
+  "584": {
+    "item_name": "Relic Copper", 
+    "filename": "bcgiecch", 
+    "folder": "item", 
+    "desc": ["A copper coin used in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "585": {
+    "item_name": "Relic Silver", 
+    "filename": "bcgidjhb", 
+    "folder": "item", 
+    "desc": ["A silver coin used in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "586": {
+    "item_name": "Relic Gold", 
+    "filename": "bcgidhbf", 
+    "folder": "item", 
+    "desc": ["A gold coin used in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "587": {
+    "item_name": "Relic Vase", 
+    "filename": "bcgidefj", 
+    "folder": "item", 
+    "desc": ["A vase made in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "588": {
+    "item_name": "Relic Band", 
+    "filename": "bcgifcfb", 
+    "folder": "item", 
+    "desc": ["A bracelet made in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "589": {
+    "item_name": "Relic Statue", 
+    "filename": "bcgiejjf", 
+    "folder": "item", 
+    "desc": ["A stone figure made in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "590": {
+    "item_name": "Relic Crown", 
+    "filename": "bcgiehdj", 
+    "folder": "item", 
+    "desc": ["A crown made in a civilization", "about 3,000 years ago.", "A maniac will buy it for a high price."]
+  }, 
+  "591": {
+    "item_name": "Casteliacone", 
+    "filename": "bcgieeid", 
+    "folder": "item", 
+    "desc": ["Castelia City's specialty, soft-serve", "ice cream. It heals all the status", "problems of a single Pokémon."]
+  }
 }
