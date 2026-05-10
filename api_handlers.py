@@ -167,7 +167,13 @@ def handle_kinomi_sowing(_query):
 def handle_kinomi_watering(_query):
     my_croft_id = int(_query.get("my_croft_id")[0])
 
-    return json.dumps({"my_croft_id": my_croft_id}).encode()
+    for index, plant in enumerate(crop_data["croft_list"]):
+        if plant["my_croft_id"] != my_croft_id:
+            continue
+
+        crop_data["croft_list"][index]["dirt_hp"] = 100
+
+    return json.dumps(crop_data).encode()
 
 
 def handle_waterpot_list_POST(_query):
