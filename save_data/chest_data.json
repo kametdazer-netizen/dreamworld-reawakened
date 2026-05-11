@@ -1,5 +1,5 @@
 {
-  "cnt": "8",
+  "cnt": 9,
   "list": [
     {
       "pokeitem_id": 290,
@@ -59,10 +59,10 @@
     {
       "pokeitem_id": 200,
       "pokeitem": "Chilan Berry",
-      "item_cnt": 94,
+      "item_cnt": 102,
       "bunrui_no": "1",
       "b_hozon_sentou": "1",
-      "date": "2026-05-03",
+      "date": "2026-05-12",
       "field_line1": "Weakens a Normal-type attack against",
       "field_line2": "the Pokémon holding this berry.",
       "field_line3": null
@@ -88,6 +88,17 @@
       "field_line1": "If held by a Pokémon,",
       "field_line2": "it recovers from confusion.",
       "field_line3": null
+    },
+    {
+      "pokeitem_id": 548,
+      "pokeitem": "Fire Gem",
+      "item_cnt": 1,
+      "bunrui_no": "1",
+      "b_hozon_sentou": "1",
+      "date": "2026-05-12",
+      "field_line1": "A gem with an essence of fire. When",
+      "field_line2": "held, it strengthens the power of a",
+      "field_line3": "Fire-type move only once."
     }
   ]
 }

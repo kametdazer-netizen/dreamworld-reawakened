@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import json
 import logging
-from datetime import datetime
 from random import choice
 from random import choices
 from random import randint
@@ -91,7 +90,7 @@ def handle_dreamland_top(_query):
         pdata  = eligible[natdex]
         pkmn_entry = game_data.pokemon_info.get(natdex)
 
-        pkmn = {**pkmn_entry, "pokemon_no": natdex}
+        pkmn = {**pkmn_entry, "pokemon_no": natdex.split("-")[0]}
         return pkmn, pdata
 
     # --- pick one eligible item from the area ---
@@ -257,30 +256,7 @@ def handle_game_clear(_query):
             "present":  None,
         }
 
-        current_date = datetime.now().strftime("%Y-%m-%d")
-        chest_item = next((item for item in game_data.chest_data["list"] if item["pokeitem_id"] == item_id), None)
-
-        if chest_item:
-            chest_item["item_cnt"] += 1
-            chest_item["date"] = current_date
-
-        else:
-            curr_item_info = game_data.item_info[str(item_id)]
-            game_data.chest_data["cnt"] += 1
-            new_item = {
-                "pokeitem_id": item_id,
-                "pokeitem": curr_item_info["item_name"],
-                "item_cnt": 1,
-                "bunrui_no": "1",
-                "b_hozon_sentou": "1",
-                "date": current_date,
-                "field_line1": curr_item_info["desc"][0],
-                "field_line2": curr_item_info["desc"][1],
-                "field_line3": curr_item_info["desc"][2]
-            }
-            game_data.chest_data["list"].append(new_item)
-
-        game_data.save_treasure_chest()
+        game_data.chest.add_item(item_id, 1)
  
     logging.info("game_clear response: %s", json.dumps(reward))
     return json.dumps(reward).encode()

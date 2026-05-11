@@ -58,9 +58,9 @@ def handle_item_list(_query):
     sort_key = int(_query.get("sort_key", [3])[0])
 
     if item_kind_id == 0: #all items
-        item_list = game_data.chest_data["list"]
+        item_list = game_data.chest.data["list"]
     elif item_kind_id == 1: #only berries
-        item_list = [item for item in game_data.chest_data["list"] if int(item["pokeitem_id"]) in range(149, 213)]
+        item_list = [item for item in game_data.chest.data["list"] if int(item["pokeitem_id"]) in range(149, 213)]
 
     if sort_key == 1: #date
         item_list = sorted(item_list, key=lambda x: game_data.date_to_unix(x["date"]), reverse=True)
@@ -140,7 +140,7 @@ def handle_footprint_list(_query):
     return json.dumps(footprint_list).encode()
 
 def handle_croft_list(_query):
-    return(json.dumps(game_data.crop_data).encode())
+    return(json.dumps(game_data.crops.data).encode())
 
 # --------
 
@@ -148,70 +148,28 @@ def handle_kinomi_sowing(_query):
     my_croft_id = int(_query.get("my_croft_id")[0])
     pokeitem_id = _query.get("pokeitem_id")[0]
     
-    plant = [plant for plant in game_data.crop_data["croft_list"] if plant["my_croft_id"] == my_croft_id][0]
+    game_data.crops.sow(my_croft_id, pokeitem_id)
+    game_data.chest.remove_item(pokeitem_id, 1)
 
-    current_time = round(time.time())
-    berry_id = int(pokeitem_id) - 148
-
-    plant.update({
-        "my_croft_id": my_croft_id,
-        "pokeitem_id": int(pokeitem_id),
-        "kinomi": game_data.item_info[pokeitem_id]["item_name"],
-        "kinomi_id": berry_id,
-        "dirt_hp": 100,
-        "desc1": game_data.item_info[pokeitem_id]["desc"][0],
-        "desc2": game_data.item_info[pokeitem_id]["desc"][1],
-        "desc3": game_data.item_info[pokeitem_id]["desc"][2],
-        "kinomi_state": 0,
-        "x": plant["x"],
-        "y": plant["y"],
-        "server": {"planted_time": current_time, "last_update_time": current_time, "yield": game_data.berry_data[str(berry_id)]["max_yield"]}
-    })
-
-    game_data.save_crops()
-
-    return json.dumps(game_data.crop_data).encode()
+    return json.dumps(game_data.crops.data).encode()
 
 
 def handle_kinomi_watering(_query):
     my_croft_id = int(_query.get("my_croft_id")[0])
 
-    plant = [plant for plant in game_data.crop_data["croft_list"] if plant["my_croft_id"] == my_croft_id][0]
+    game_data.crops.water_plot(my_croft_id)
 
-    plant["dirt_hp"] = 100
-
-    game_data.save_crops()
-
-    return json.dumps(game_data.crop_data).encode()
+    return json.dumps(game_data.crops.data).encode()
 
 
 def handle_kinomi_harvesting(_query):
     my_croft_id = int(_query.get("my_croft_id")[0])
 
-    plant = [plant for plant in game_data.crop_data["croft_list"] if plant["my_croft_id"] == my_croft_id][0]
-    index = game_data.crop_data["croft_list"].index(plant)
+    harvest_result = game_data.crops.harvest(my_croft_id)
+    if harvest_result:
+        game_data.chest.add_item(harvest_result["pokeitem_id"], harvest_result["count"])
 
-    for item in game_data.chest_data["list"]:
-        if item["pokeitem_id"] == plant["pokeitem_id"]:
-            item["item_cnt"] += plant["server"]["yield"]
-
-    response = {
-        "kinomi_id": plant["kinomi_id"],
-        "kinomi": plant["kinomi"],
-        "pokeitem_id": plant["pokeitem_id"],
-        "count": plant["server"]["yield"]
-    }
-
-    game_data.crop_data["croft_list"][index] = {
-        "my_croft_id": plant["my_croft_id"],
-        "x": plant["x"],
-        "y": plant["y"]
-    }
-
-    game_data.save_crops()
-    game_data.save_treasure_chest()
-
-    return json.dumps(response).encode()
+    return json.dumps(harvest_result).encode()
 
 
 def handle_waterpot_list_POST(_query):
