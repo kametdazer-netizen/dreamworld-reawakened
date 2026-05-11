@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="ja">
+    <string id="b_aa_1">日付順</string> <!--Assumption-->
+    <string id="b_aa_2">名前順</string> <!--Assumption-->
+    <string id="b_aa_3">種類順</string> <!--Assumption-->
+    <string id="b_aa_4">送る</string>
+    <string id="b_aa_5">b_aa_5</string>
+    <string id="b_aa_6">たからばこ</string>
+
+    <string id="b_ae_1">このどうぐをハイリンクへ送りますか？</string>
+
+    <string id="b_ad_1">ハイリンクに送るもの</string>
+    <string id="b_ad_2">どうぐ名</string>
+    <string id="b_ad_3">数</string>
+    <string id="b_ad_6">OK</string>
+    <string id="b_ad_7">キャンセル</string>
+
+    <string id="b_az_1">とじる</string>
+
+    <string id="b_af_2">［ポケモンドリームワールドを終了する］ボタンを押し、ゲームソフトの「ゲームシンク」でポケモンを起こしたあと、ハイリンクのもりの入り口にいる少年からどうぐをもらえます。</string>
+</data>
