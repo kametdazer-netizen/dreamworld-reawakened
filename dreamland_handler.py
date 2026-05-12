@@ -216,7 +216,7 @@ def handle_dreamland_tree_top(_query):
 
 
 def handle_game_clear(_query):
-    encounter = encounter_store.get(str(_query["object_pokemon_id"][0]))
+    encounter = encounter_store.get(str(_query["object_pokemon_id"]))
 
     if encounter["type"] == "pokemon":
         pkmn = encounter["pokemon"]

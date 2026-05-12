@@ -59,8 +59,8 @@ class S(BaseHTTPRequestHandler):
         path = escape(parsed.path)
 
         if path == "/api/":
-            query = parse_qs(parsed.query, strict_parsing=True)
-            api_name = query["p"][0]
+            query = {k: v[0] for k, v in parse_qs(parsed.query, strict_parsing=True).items()}
+            api_name = query["p"]
             logging.info("API GET: %s", api_name)
             self._dispatch_api(api_name, query, STATIC_GET_RESPONSES, DYNAMIC_GET_RESPONSES)
             return
@@ -102,8 +102,8 @@ class S(BaseHTTPRequestHandler):
         
         content_length = int(self.headers["Content-Length"])
         post_data = self.rfile.read(content_length)
-        query = parse_qs(post_data.decode(), strict_parsing=True)
-        api_name = query["p"][0]
+        query = {k: v[0] for k, v in parse_qs(post_data.decode(), strict_parsing=True).items()}
+        api_name = query["p"]
         
         logging.info("API POST: %s", api_name)
         

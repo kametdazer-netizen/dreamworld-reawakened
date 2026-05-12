@@ -54,8 +54,11 @@ def handle_waterpot_list_GET(_query):
 
 
 def handle_item_list(_query):
-    item_kind_id = int(_query.get("item_kind_id", [0])[0])
-    sort_key = int(_query.get("sort_key", [3])[0])
+    print(_query)
+    item_kind_id = int(_query.get("item_kind_id", 0))
+    sort_key     = int(_query.get("sort_key", 3))
+    offset       = int(_query.get("offset", 0))
+    rowcount     = int(_query.get("rowcount", 9999))
 
     if item_kind_id == 0: #all items
         item_list = game_data.chest.data["list"]
@@ -75,7 +78,9 @@ def handle_item_list(_query):
     elif sort_key == 3: #name
         item_list = sorted(item_list, key=lambda x: x["pokeitem"])
 
-    return json.dumps({"cnt": len(item_list), "list": item_list}).encode()
+    item_list = item_list[offset:offset+rowcount]
+
+    return json.dumps({"cnt": len(game_data.chest.data["list"]), "list": item_list}).encode()
 
 
 def handle_my_island(_query):
@@ -144,8 +149,8 @@ def handle_croft_list(_query):
 # --------
 
 def handle_kinomi_sowing(_query):
-    my_croft_id = int(_query.get("my_croft_id")[0])
-    pokeitem_id = _query.get("pokeitem_id")[0]
+    my_croft_id = int(_query.get("my_croft_id"))
+    pokeitem_id = _query.get("pokeitem_id")
     
     game_data.crops.sow(my_croft_id, pokeitem_id)
     game_data.chest.remove_item(pokeitem_id, 1)
@@ -154,7 +159,7 @@ def handle_kinomi_sowing(_query):
 
 
 def handle_kinomi_watering(_query):
-    my_croft_id = int(_query.get("my_croft_id")[0])
+    my_croft_id = int(_query.get("my_croft_id"))
 
     game_data.crops.water_plot(my_croft_id)
 
@@ -162,7 +167,7 @@ def handle_kinomi_watering(_query):
 
 
 def handle_kinomi_harvesting(_query):
-    my_croft_id = int(_query.get("my_croft_id")[0])
+    my_croft_id = int(_query.get("my_croft_id"))
 
     harvest_result = game_data.crops.harvest(my_croft_id)
     game_data.chest.add_item(harvest_result["pokeitem_id"], harvest_result["count"])
