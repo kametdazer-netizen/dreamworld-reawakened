@@ -30,6 +30,14 @@ This file documents changes that had to be made to the original .swf files in or
 + PDW_API_SSL = "http://127.0.0.1:8080/api/";
 ```
 
+### bfp.common.textFieldManager.as:350
+
+```diff
+- _loc2_ = "";
+
++ _loc2_ = param1;
+```
+
 ## pdw_home.swf
 
 ### bfp.tpc.pdw.home.Home.as:630-640
