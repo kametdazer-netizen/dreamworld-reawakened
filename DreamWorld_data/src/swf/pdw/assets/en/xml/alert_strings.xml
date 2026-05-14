@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data locale="en">	
 	
-	<!-- shared by HOUR_24_TIMER_ALERT, BUSY_PDW_ALERT, DOWNLOAD_PDW_ALERT -->
+	<!-- shared by HOUR_24_TIMER_ALERT, BUSY_PDW_ALERT, and DOWNLOAD_PDW_ALERT -->
 	<string id="pg_ame_1">pg_ame_1</string> 
 	<string id="pg_amk_1">pg_amk_1</string>
 
@@ -13,8 +13,6 @@
 	<string id="pg_adi_5">pg_adi_5</string>
 	<string id="pg_adi_6">pg_adi_6</string>
 	<string id="pg_adi_7">pg_adi_7</string>
-	<string id="pg_ame_1">pg_ame_1</string>
-	<string id="pg_amk_1">pg_amk_1</string>
 
 	<!-- BUSY_PDW_ALERT -->
 	<string id="pg_ade_1">Pokémon Dream World is unavailable.</string>
@@ -22,8 +20,6 @@
 	<string id="pg_ade_3">Pokémon Dream World is currently busy. Please try again later!</string>
 	<string id="pg_ade_4">Close</string>
 	<string id="pg_ade_5">Retry</string>
-	<string id="pg_ame_1">pg_ame_1</string>
-	<string id="pg_amk_1">pg_amk_1</string>
 
 	<!-- ENABLE_ACCESS_TO_PDW -->
 	<string id="pg_amh_1">Welcome to the Pokémon Dream World.</string>
@@ -35,8 +31,6 @@
 	<string id="pg_amc_1">pg_amc_1</string>
 	<string id="pg_amc_2">pg_amc_2</string>
 	<string id="pg_amc_3">pg_amc_3</string>
-	<string id="pg_ame_1">pg_ame_1</string>
-	<string id="pg_amk_1">pg_amk_1</string>
 
 	<!-- SLEEPING_PDW_ALERT -->
 	<string id="pg_amd_1">pg_amd_1</string>
