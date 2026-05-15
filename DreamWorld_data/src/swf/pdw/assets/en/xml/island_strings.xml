@@ -58,10 +58,10 @@
     <string id="y_af_5">Gender:</string>
     <string id="y_af_6">Learned moves:</string>
 
-    <string id="y_ah_1">y_ah_1</string> <!-- universal failure message, the opposite of string y_af_1 -->
+    <string id="y_ah_1">[ポケモン名] disappeared</string> <!-- universal failure message, the opposite of string y_af_1 -->
     
     <string id="y_af_7">[ポケモン名] looks happy.</string>
-    <string id="y_ag_9">y_ag_9</string> <!-- looks sad string -->
+    <string id="y_ag_9">[ポケモン名] looks disappointed.</string>
 
     <!-- game header -->
     <string id="y_ad_1">It's [ポケモン名]!</string>
@@ -69,25 +69,25 @@
     <!-- game1.swf -->
     <string id="y_ad_10">[ポケモン名] seems to be searching for a hidden Pokémon.</string>
     <string id="y_ad_11">Search for a Pokémon with [ポケモン名]?</string>
-    <string id="y_ag_5">I'm sorry you didn't succeed at Pokémon seek.</string>
+    <string unofficial="true" id="y_ag_5">You didn't succeed at Pokémon Seek.</string>
     <string id="y_ag_6">y_ag_6</string>
 
     <!-- game2.swf -->
     <string id="y_ad_2">[ポケモン名] looks hungry.</string>
     <string id="y_ad_4">Scoop ice cream with [ポケモン名]?</string>
-    <string id="y_ag_1">I'm sorry you didn't succeed at Ice Cream Scoop.</string>
+    <string unofficial="true" id="y_ag_1">You didn't succeed at Ice Cream Scoop.</string>
     <string id="y_ag_2">y_ag_2</string>
 
     <!-- game3.swf -->
     <string id="y_ad_7">It looks like [ポケモン名] wants you to fly.</string>
     <string id="y_ad_8">Enter the Sky Race for [ポケモン名]?</string>
-    <string id="y_ag_3">I'm sorry you didn't complete the Sky Race.</string>
+    <string unofficial="true" id="y_ag_3">You didn't complete the Sky Race.</string>
     <string id="y_ag_4">y_ag_4</string>
 
     <!-- game4.swf -->
     <string id="y_ad_13">[ポケモン名] seems interested in playing with Wailord.</string>
     <string id="y_ad_14">Join [ポケモン名] in playing with Wailord?</string>
-    <string id="y_ag_7">I'm sorry you didn't succeed at Wailord's Water Spout.</string>
+    <string unofficial="true" id="y_ag_7">You didn't succeed at Wailord's Water Spout.</string>
     <string id="y_ag_8">y_ag_8</string>
 
     <!-- game5.swf -->
@@ -117,7 +117,7 @@
     <!-- game9.swf -->
     <string id="y_ad_22">It looks like [ポケモン名] wants to play on the ice.</string>
     <string id="y_ad_23">Play on the ice with [ポケモン名]?</string>
-    <string id="y_ag_16">y_ag_16</string>
+    <string id="y_ag_16">You didn't succeed at Frozen Treat Sweep.</string>
     <string id="y_ag_17">y_ag_17</string>
 
     <!-- game10.swf -->
