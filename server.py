@@ -77,7 +77,7 @@ class S(BaseHTTPRequestHandler):
             return
 
         if path == "/":
-            with open(Path(ROOT_DIR / "DreamWorld_data" / "Dream_Park.htm"), "rb") as f:
+            with open(ROOT_DIR / "DreamWorld_data" / "Dream_Park.htm", "rb") as f:
                 data = f.read()
             
             self.send_response(200)
@@ -139,7 +139,7 @@ def run(server_class=HTTPServer, handler_class=S, port=8080, debug=False, is_ran
     log_level = logging.DEBUG if httpd.app_config["debug"] else logging.INFO
     
     logging.basicConfig(level=log_level)
-    logging.info("Starting server%s...\n", " (debug mode)" if httpd.app_config["debug"] else "")
+    logging.info("Server started!%s\n", " (debug mode)" if httpd.app_config["debug"] else "")
     
     try:
         httpd.serve_forever()

@@ -115,22 +115,10 @@ def handle_my_island(_query):
     if _query["is_random"]:
         pkmn = game_data.get_random_pokemon()
     else:
-        pkmn = game_data.player_data["member"]
+        pkmn = game_data.sleeping_pokemon
 
     response = {
-        "pokemon": {
-            "pokemon_no":        pkmn["pokemon_no"],
-            "pokemon_name":      pkmn["pokemon_name"],
-            "form_no":           pkmn.get("form_no", "0"),
-            "type1":             pkmn["type1"],
-            "type2":             pkmn["type2"],
-            "pokemon_nickname":  None,
-            "oyaname":           pkmn.get("alter_rom_name", game_data.player_data["member"]["pgl_name"]),
-            "level":             randint(1, 100),
-            "sex":               randint(0, 1),
-            "personality":       choice(game_data.pokemon_natures),
-            "ball_name":         "Poke Ball"
-        },
+        "pokemon":                {**pkmn},
         "island_id":               201,
         "point":                   0,
         "trial_flag":              0,

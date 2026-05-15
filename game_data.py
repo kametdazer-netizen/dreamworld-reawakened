@@ -205,6 +205,9 @@ class CropManager:
 with open(ROOT_DIR / "save_data" / "player_data.json", encoding="UTF-8") as f:
     player_data = json.load(f)
 
+with open(ROOT_DIR / "save_data" / "sleeping_pokemon.json", encoding="UTF-8") as f:
+    sleeping_pokemon = json.load(f)
+
 chest = ChestManager(ROOT_DIR / "save_data" / "chest_data.json")
 
 crops = CropManager(ROOT_DIR / "save_data" / "crop_data.json")
