@@ -9,6 +9,9 @@
     <string id="h_ca_2">Check Footprint Mat.</string>
     <string id="fr_aa_4">Enter room.</string>
 
+    <!--Check info-->
+    <string id="new_home_3">No info is available.</string>
+
     <!--Footprint Mat-->
     <string id="m_aa_1">Footprint</string> <!--Title when looking at mat-->
     <string id="m_aa_2">See more</string>

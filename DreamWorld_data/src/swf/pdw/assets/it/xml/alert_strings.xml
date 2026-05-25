@@ -29,7 +29,12 @@
 	<string id="dc_aa_4">Dopo aver espresso un desiderio all'albero dei sogni, a volte dovrai aspettare un po' per&#xD;vedere la sua foto affissa sulla bacheca.</string>
 	<string id="dc_aa_5">Avanti</string>
 	<string id="dc_aa_6">Indietro</string>
-	<!--It should go to list of items next but as of time of writing, pressing "Next" (or "Back") softlocks-->
+	<string id="dc_ac_1">Strumenti da inviare all'Intramondo</string>
+	<string id="dc_ac_2">Dopo aver svegliato il Pokémon con il Sincrogioco, potrai ricevere gli strumenti inviati&#xD;parlando al ragazzo all'ingresso del Bosco Intramondo.</string>
+	<string id="dc_ac_3">Se vuoi fare delle modifiche, clicca su Torna al Pokémon DW, apri il baule e scegli&#xD;gli strumenti da inviare nell'Intramondo.</string>
+	<string id="dc_ac_4">Esci dal Pokémon DW</string>
+	<string id="dc_af_2">Non ci sono strumenti da inviare nell'Intramondo.</string>
+	<string id="o_abb_1">Fine della visita al Pokémon DW. Puoi risvegliare il Pokémon&#xD;col Sincrogioco.</string> <!-- not sure if it's this string -->
 
 	<!--Leave and stay asleep submenu-->
 	<string unofficial="true" id="o_az_1">Fine della visita al Pokémon DW.</string> <!-- Marking this as unofficial because it's a guess from the variant that wakes the Pokémon up -->
@@ -48,7 +53,23 @@
 	<string id="pg_amh_2">Potrai giocare al Pokémon DW per un'ora.</string>
 	<string id="pg_amh_3">Dopo un'ora di gioco, il Pokémon Dream World si chiude&#xD;automaticamente.&#xD;Quando questo accade, i dati del gioco potrebbero non essere salvati.&#xD;Esci quando compare l'annuncio che il tempo è scaduto.</string>
 	<string id="pg_amh_4">Chiudi</string>
+	
+	<string id="pg_alc_1">Processing your data for the Pokémon Dream World.&#xD;Please wait before trying again.&#xD;It may take five minutes or longer to complete the process.</string>
+	<string id="pg_alc_2">*It may take a while for a Pokémon to start dreaming after you tuck in the Pokémon&#xD;with Game Sync.</string>
+	
+	<string id="pg_ald_1">Processing registration data.&#xD;Please wait before trying again.&#xD;It may take five minutes or longer to complete the process.</string>
+	<string id="pg_ald_2">Chiudi</string>
+	
+	<string id="pg_alf_1">No Pokémon is dreaming. Use&#xD;Game Sync to wake a Pokémon.&#xD;To play in the Pokémon DW&#xD;again, tuck in a Pokémon.</string>
+	<string id="pg_alf_2">*Use Game Sync to tuck in a Pokémon only once a day.</string>
+	<string id="pg_alf_3">Chiudi</string>
+	
+	<string id="pg_ale_1">Nessuno dei tuoi Pokémon sta sognando in questo&#xD;momento: usa il Sincrogioco per fare addormentare un&#xD;Pokémon.</string>
+	<string id="pg_ale_2">Chiudi</string>
 
+	<!--Generic error message-->
+	<string id="pg_ame_1">Errore nella fase di elaborazione dei dati.</string> <!-- Confirmed by footage and code analysis. There is another error saying "Invalid access." -->
+	
 	<!--AFK Pop-Up box - real text unknown-->
 	<string unofficial="true" id="pg_amf_1">A database error has occured.&#xD;You have been disconnected.</string>
 	<string unofficial="true" id="pg_ay_2">OK</string>

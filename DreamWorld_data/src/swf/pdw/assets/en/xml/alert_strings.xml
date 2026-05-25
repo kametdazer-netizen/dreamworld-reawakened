@@ -42,17 +42,17 @@
 	<string id="pg_alc_2">*It may take a while for a Pokémon to start dreaming after you tuck in the Pokémon&#xD;with Game Sync.</string>
 
 	<!-- DELAY_PLAYDATA -->
-	<string id="pg_ald_1">pg_ald_1</string>
-	<string id="pg_ald_2">pg_ald_2</string>
+	<string id="pg_ald_1">Processing registration data.&#xD;Please wait before trying again.&#xD;It may take five minutes or longer to complete the process.</string>
+	<string id="pg_ald_2">Close</string>
 
 	<!-- ALERT_DONT_WAKEUP -->
-	<string id="pg_alf_1">pg_alf_1</string>
-	<string id="pg_alf_2">pg_alf_2</string>
-	<string id="pg_alf_3">pg_alf_3</string>
+	<string id="pg_alf_1">No Pokémon is dreaming. Use&#xD;Game Sync to wake a Pokémon.&#xD;To play in the Pokémon DW&#xD;again, tuck in a Pokémon.</string>
+	<string id="pg_alf_2">*Use Game Sync to tuck in a Pokémon only once a day.</string>
+	<string id="pg_alf_3">Close</string>
 
 	<!-- ALERT_DONT_SLEEP -->
-	<string id="pg_ale_1">pg_ale_1</string>
-	<string id="pg_ale_2">pg_ale_2</string>
+	<string id="pg_ale_1">No Pokémon is asleep. Tuck in&#xD;a Pokémon using Game Sync.</string>
+	<string id="pg_ale_2">Close</string>
 
 	<!-- DELAY_GAMEDATA -->
 	<string id="pg_alg_1">pg_alg_1</string>
@@ -62,28 +62,45 @@
 	<string id="pg_opa_1">Loading</string>
 
 	<!--Leave the Pokemon Dream World Options-->
-	<string id="da_aa_1">Your time in the Pokémon Dream World is about to end.</string>
+	<string id="da_aa_1">Your time in the Pokémon Dream World is about to end.</string> <!-- from late 2011 to early 2012, the unused message "The Dream World will end." was being used instead -->
 	<string id="da_aa_2">Exit and prepare to wake up</string>
 	<string id="da_aa_3">Prepare to exit the Pokémon DW&#xD;and use Game Sync to wake up&#xD;your Pokémon. You can check the&#xD;Pokémon and items you're&#xD;sending to your Entralink.</string>
 	<string id="da_aa_4">Exit and continue sleeping</string>
 	<string id="da_aa_5">Exit the Pokémon DW and wake up</string>
 	<string id="da_aa_6">Exit the Pokémon DW without waking</string>
 	<string id="da_ab_1">Choose this option to exit the&#xD;Pokémon DW temporarily.</string>
-	<string id="da_ab_2">If the Pokémon that you wished for at the Tree of Dreams is on the board, the rainbow to the Island of Dreams won't appear!</string>
+	<string id="da_ab_2">If the Pokémon that you wished for at the Tree of Dreams&#xD;is on the board, the rainbow to the Island of Dreams&#xD;won't appear!</string>
 	<string id="da_ab_3">The Pokémon DW will automatically end one hour after you start playing.</string>
 	<string id="da_ab_4">Keep playing in the Pokémon DW</string>
 
 	<!--Leave And Wake Up Submenu-->
 	<string id="dc_aa_1">List of Pokémon to take</string>
 	<string id="dc_aa_2">After using Game Sync to wake up your Pokémon, go to the Entree Forest to meet the Pokémon you took.</string>
-	<string id="dc_aa_3">If there is another Pokémon you'd like to take, click "Back" and check the Friend Board in your home.</string>
-	<string id="dc_aa_4">It may take some time for the Pokémon you wished for at the Tree of Dreams to appear on the Friend Board.</string>
+	<string id="dc_aa_3">If there is another Pokémon you'd like to take, click "Back" and check the Friend Board in your&#xD;home.</string>
+	<string id="dc_aa_4">It may take some time for the Pokémon you wished for at the Tree of Dreams to appear on the Friend&#xD;Board.</string>
 	<string id="dc_aa_5">Next</string>
-	<string id="dc_aa_6">Back</string> 
-	<!--It should go to list of items next but as of time of writing, pressing "Next" (or "Back") softlocks-->
+	<string id="dc_aa_6">Back</string>
+	<string id="dc_ac_1">List of items to send to the Entralink</string>
+	<string id="dc_ac_2">Get the items you sent to the Entralink from the boy at the Entree Forest after waking your&#xD;Pokémon.</string>
+	<string id="dc_ac_3">If you want to change items, click "Back" and select items to send to the Entralink from&#xD;the Treasure Chest in your room.</string>
+	<string id="dc_ac_4">Exit the Pokémon DW</string>
+	<string id="dc_af_2">Sorry, there's no item to send to the Entralink.</string>
+	<string id="o_abb_1">You have left the Pokémon Dream World.&#xD;Now, wake your Pokémon with Game Sync.</string> <!-- not sure if it's this string -->
 
 	<!--Leave and stay asleep submenu-->
 	<string id="o_az_1">You have left the Pokémon Dream World.</string>
+
+	<!--One hour alert-->
+	<string id="da_ad_1">An hour has passed since you began playing.</string>
+	<string id="da_ad_2">One hour has passed since you started playing. Please click one of the buttons and exit the Pokémon DW.</string>
+	<string id="da_ad_6">Select this option to exit the Pokémon DW&#xD;temporarily.</string>
+
+	<!--Final alert-->
+	<string id="da_af_1">da_af_1</string>
+	<string id="da_af_2">da_af_2</string>
+
+	<!--Generic error message-->
+	<string id="pg_ame_1">An error occured during data processing.</string> <!-- Confirmed by footage and code analysis. There is another error saying "Invalid access." -->
 
 	<!--AFK Pop-Up box-->
 	<string unofficial="true" id="pg_amf_1">A database error has occured.&#xD;You have been disconnected.</string>

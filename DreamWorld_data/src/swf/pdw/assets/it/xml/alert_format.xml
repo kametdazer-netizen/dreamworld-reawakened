@@ -38,21 +38,21 @@
     <string id="pg_amd_3" size="12" letterSpacing="1"/> <!-- pg_amd_3 -->
 
     <!-- DELAY_BOARD -->
-    <string id="pg_alc_1" size="12" letterSpacing="1"/> <!-- Processing your data for the Pokémon Dream World.&#xD;Please wait before trying again.&#xD;It may take five minutes or longer to complete the process. -->
-    <string id="pg_alc_2" size="12" letterSpacing="1"/> <!-- *It may take a while for a Pokémon to start dreaming after you tuck in the Pokémon&#xD;with Game Sync. -->
+    <string id="pg_alc_1" size="16"/> <!-- Processing your data for the Pokémon Dream World.&#xD;Please wait before trying again.&#xD;It may take five minutes or longer to complete the process. -->
+    <string id="pg_alc_2" size="12"/> <!-- *It may take a while for a Pokémon to start dreaming after you tuck in the Pokémon&#xD;with Game Sync. -->
 
     <!-- DELAY_PLAYDATA -->
-    <string id="pg_ald_1" size="12" letterSpacing="1"/> <!-- pg_ald_1 -->
-    <string id="pg_ald_2" size="12" letterSpacing="1"/> <!-- pg_ald_2 -->
+    <string id="pg_ald_1" size="16"/> <!-- pg_ald_1 -->
+    <string id="pg_ald_2" size="12"/> <!-- pg_ald_2 -->
 
     <!-- ALERT_DONT_WAKEUP -->
-    <string id="pg_alf_1" size="12" letterSpacing="1"/> <!-- pg_alf_1 -->
-    <string id="pg_alf_2" size="12" letterSpacing="1"/> <!-- pg_alf_2 -->
-    <string id="pg_alf_3" size="12" letterSpacing="1"/> <!-- pg_alf_3 -->
+    <string id="pg_alf_1" size="16"/> <!-- pg_alf_1 -->
+    <string id="pg_alf_2" size="12"/> <!-- pg_alf_2 -->
+    <string id="pg_alf_3" size="12"/> <!-- pg_alf_3 -->
 
     <!-- ALERT_DONT_SLEEP -->
-    <string id="pg_ale_1" size="12" letterSpacing="1"/> <!-- pg_ale_1 -->
-    <string id="pg_ale_2" size="12" letterSpacing="1"/> <!-- pg_ale_2 -->
+    <string id="pg_ale_1" size="12"/> <!-- pg_ale_1 -->
+    <string id="pg_ale_2" size="12"/> <!-- pg_ale_2 -->
 
     <!-- DELAY_GAMEDATA -->
     <string id="pg_alg_1" size="12" letterSpacing="1"/> <!-- pg_alg_1 -->
@@ -69,27 +69,32 @@
     <string id="da_aa_5" size="12" bold="true" letterSpacing="1"/> <!-- Exit the Pokémon DW and wake up -->
     <string id="da_aa_6" size="12" bold="true" letterSpacing="1"/> <!-- Exit the Pokémon DW without waking -->
     <string id="da_ab_1" size="12" bold="true" letterSpacing="1"/> <!-- Choose this option to exit the&#xD;Pokémon DW temporarily. -->
-    <string id="da_ab_2" size="12" bold="true" letterSpacing="0.5" leading="-0.75"/> <!-- If the Pokémon you wished for at the Tree of Dreams is on the board, the rainbow to the Island of Dreams won't appear! -->
+    <string id="da_ab_2" size="11" bold="true" letterSpacing="0.5"  leading="-0.75"/> <!-- If the Pokémon that you wished for at the Tree of Dreams&#xD;is on the board, the rainbow to the Island of Dreams&#xD;won't appear! -->
     <string id="da_ab_3" size="12" bold="true" letterSpacing="1"/> <!-- The Pokémon DW will automatically end one hour after you start playing. -->
     <string id="da_ab_4" size="12" bold="true" letterSpacing="1"/> <!-- Keep playing in the Pokémon DW -->
 
     <!--One hour alert-->
-    <string id="da_ad_1" size="16" bold="true" letterSpacing="1"/> <!-- Stai giocando al Dream World da quasi un'ora. -->
-    <string id="da_ad_2" size="12" bold="true" letterSpacing="1"/> <!-- É quasi trascorsa un'ora da quando hai iniziato a giocare nel Pokémon Dream World. Scegli un'opzione ed esci dal&#xD;Pokémon Dream World. -->
-    <string id="da_ad_6" size="12" bold="true" letterSpacing="1"/> <!-- Usa questa opzione per uscire temporaneamente dal&#xD;Pokémon DW. -->
+    <string id="da_ad_1" size="16" bold="true" letterSpacing="1"/> <!-- An hour has passed since you began playing. -->
+    <string id="da_ad_2" size="12" bold="true" letterSpacing="1"/> <!-- One hour has passed since you started playing. Please click one of the buttons and exit the Pokémon DW. -->
+    <string id="da_ad_6" size="12" bold="true" letterSpacing="1"/> <!-- Select this option to exit the Pokémon DW&#xD;temporarily. -->
 
-    <!--Final alert, unofficial strings-->
-    <string id="da_af_1" size="16" bold="true" letterSpacing="1"/> <!-- Stai giocando al Dream World da un'ora. -->
-    <string id="da_af_2" size="12" bold="true" letterSpacing="1"/> <!-- É trascorsa un'ora da quando hai iniziato a giocare nel Pokémon Dream World. Scegli un'opzione ed esci dal&#xD;Pokémon Dream World. -->
+    <!--Final alert-->
+    <string id="da_af_1" size="16" bold="true" letterSpacing="1"/>
+    <string id="da_af_2" size="12" bold="true" letterSpacing="1"/>
 
     <!--Leave And Wake Up Submenu-->
-    <string id="dc_aa_1" size="12" letterSpacing="1"/> <!-- List of Pokémon to take -->
+    <string id="dc_aa_1" size="16" letterSpacing="1"/> <!-- List of Pokémon to take -->
     <string id="dc_aa_2" size="12" letterSpacing="1"/> <!-- After using Game Sync to wake up your Pokémon, go to the Entree Forest to meet the Pokémon you took. -->
-    <string id="dc_aa_3" size="12" letterSpacing="1"/> <!-- If there is another Pokémon you'd like to take, click "Back" and check the Friend Board in your home. -->
-    <string id="dc_aa_4" size="12" letterSpacing="1"/> <!-- It may take some time for the Pokémon you wished for at the Tree of Dreams to appear on the Friend Board. -->
+    <string id="dc_aa_3" size="11" letterSpacing="1"/> <!-- If there is another Pokémon you'd like to take, click "Back" and check the Friend Board in your&#xD;home. -->
+    <string id="dc_aa_4" size="11" letterSpacing="1"/> <!-- It may take some time for the Pokémon you wished for at the Tree of Dreams to appear on the Friend&#xD;Board. -->
     <string id="dc_aa_5" size="12" letterSpacing="1"/> <!-- Next -->
     <string id="dc_aa_6" size="12" letterSpacing="1"/> <!-- Back -->
-    <!--It should go to list of items next but as of time of writing, pressing "Next" (or "Back") softlocks-->
+    <string id="dc_ac_1" size="16" letterSpacing="1"/> <!-- List of items to send to the Entralink --> 
+    <string id="dc_ac_2" size="12" letterSpacing="1"/> <!-- Get the items you sent to the Entralink from the boy at the Entree Forest after waking your&#xD;Pokémon -->
+    <string id="dc_ac_3" size="12" letterSpacing="1"/> <!-- If you want to change items, click "Back" and select items to send to the Entralink from&#xD;the Treasure Chest in your room. -->
+    <string id="dc_ac_4" size="12" letterSpacing="1"/> <!-- Exit the Pokémon DW -->
+    <string id="dc_af_2" size="12" letterSpacing="1"/> <!-- Sorry, there's no item to send to the Entralink. -->
+    <string id="o_abb_1" size="12" letterSpacing="1"/> <!-- You have left the Pokémon Dream World.&#xD;Now, wake your Pokémon with Game Sync. -->
 
     <!--Leave and stay asleep submenu-->
     <string id="o_az_1" size="12" letterSpacing="1"/> <!-- You have left the Pokémon Dream World. -->
