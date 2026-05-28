@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<data locale="es" />
+<data locale="es">
+	<string id="fr_aa_6" letterSpacing="0.2" />
+	<string id="p_ah_1" size="5" />
+</data>
