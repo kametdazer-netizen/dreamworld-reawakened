@@ -2004,8 +2004,8 @@
             },
             "fr": {},
             "it": {
-                "string": "Annaffiatoio d'acqua per innaffiare le Bacche",
-                "is_translation": true
+                "string": "Annaffiatoio normale per innaffiare le Bacche",
+                "is_translation": false
             },
             "de": {},
             "es": {},
@@ -2383,8 +2383,8 @@
             },
             "fr": {},
             "it": {
-                "string": "A garden bed has been added.",
-                "is_translation": false
+                "string": "È stata aggiunta un’aiuola.",
+                "is_translation": true
             },
             "de": {},
             "es": {},
@@ -2404,8 +2404,8 @@
             },
             "fr": {},
             "it": {
-                "string": "Diglett showed up!",
-                "is_translation": false
+                "string": "È apparso Diglett!",
+                "is_translation": true
             },
             "de": {},
             "es": {},
@@ -2425,8 +2425,8 @@
             },
             "fr": {},
             "it": {
-                "string": "There are now [arg0] garden beds\nnow, thanks to Diglett.",
-                "is_translation": false
+                "string": "Ora ci sono [arg0] aiuole, grazie a Diglett.",
+                "is_translation": true
             },
             "de": {},
             "es": {},
@@ -2443,8 +2443,8 @@
             },
             "fr": {},
             "it": {
-                "string": "Diglett started plowing\n[arg0]'s garden.",
-                "is_translation": false
+                "string": "Diglett ha iniziato ad arare l’orto di [arg0].",
+                "is_translation": true
             },
             "de": {},
             "es": {},
@@ -2461,8 +2461,8 @@
             },
             "fr": {},
             "it": {
-                "string": "Diglett left the garden.",
-                "is_translation": false
+                "string": "Diglett ha lasciato il giardino.",
+                "is_translation": true
             },
             "de": {},
             "es": {},
