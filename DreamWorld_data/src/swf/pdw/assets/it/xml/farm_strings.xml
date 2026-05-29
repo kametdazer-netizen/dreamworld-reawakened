@@ -17,7 +17,7 @@
 	<string id="k_ad_18">k_ad_18</string>
 	<string id="k_ad_2">Annaffiatoio in uso</string>
 	<string id="k_ad_3">k_ad_3</string>
-	<string id="k_ad_4" unofficial="true">Annaffiatoio d'acqua per innaffiare le Bacche</string>
+	<string id="k_ad_4">Annaffiatoio normale per innaffiare le Bacche</string>
 	<string id="k_ad_5">k_ad_5</string>
 	<string id="k_ad_6">k_ad_6</string>
 	<string id="k_ad_7">k_ad_7</string>
@@ -47,13 +47,11 @@ di [arg0]!</string>
 	<string id="k_am_2">k_am_2</string>
 	<string id="k_am_3">Le bacche raccolte sono nel baule.</string>
 	<string id="k_ama_1">k_ama_1</string>
-	<string id="k_ar_1">A garden bed has been added.</string>
-	<string id="k_as_1">Diglett showed up!</string>
-	<string id="k_asa_1">There are now [arg0] garden beds
-now, thanks to Diglett.</string>
-	<string id="k_at_1">Diglett started plowing
-[arg0]'s garden.</string>
-	<string id="k_au_1">Diglett left the garden.</string>
+	<string id="k_ar_1" unofficial="true">È stata aggiunta un’aiuola.</string>
+	<string id="k_as_1" unofficial="true">È apparso Diglett!</string>
+	<string id="k_asa_1" unofficial="true">Ci sono adesso [arg0] aiuole, grazie a Diglett.</string>
+	<string id="k_at_1" unofficial="true">Diglett ha iniziato ad arare l’orto di [arg0].</string>
+	<string id="k_au_1" unofficial="true">Diglett ha lasciato il giardino.</string>
 	<string id="k_ca_1">k_ca_1</string>
 	<string id="k_ca_2">k_ca_2</string>
 	<string id="k_det_1">k_det_1</string>
