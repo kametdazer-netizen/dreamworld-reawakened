@@ -45,10 +45,13 @@
 	<string id="b_aa_4">Send</string>
 	<string id="b_aa_5">b_aa_5</string>
 	<string id="b_aa_6">Treasure Chest</string>
-	<string id="b_af_2">Choose "Leave the Pokémon Dream World" to wakeyour Pokémon and go to the Entree Forest.You can receive your item(s) at the entrance.</string>
+	<string id="b_af_2">Choose "Leave the Pokémon Dream World" to wake
+your Pokémon and go to the Entree Forest.
+You can receive your item(s) at the entrance.</string>
 	<string id="p_aa_1">Friend Board</string>
 	<string id="p_ah_1">No Pokémon have joined you.</string>
-	<string id="p_aa_4">POKÉMON YOU WANTTO TAKE</string>
+	<string id="p_aa_4">POKÉMON YOU WANT
+TO TAKE</string>
 	<string id="p_aa_5">Pokémon already sent</string>
 	<string id="p_aa_6">Pokémon to take</string>
 	<string id="i_ab_3">Dream Catalogue</string>
