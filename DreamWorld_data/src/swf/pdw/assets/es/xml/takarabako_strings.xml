@@ -10,7 +10,7 @@
 	<string id="b_ad_6">Vale</string>
 	<string id="b_ad_7">Cancelar</string>
 	<string id="b_ae_1">¿Enviar estos objetos?</string>
-	<string id="b_af_1">Objetos que se enviarán a la Zona Nexo*</string>
+	<string id="b_af_1" unofficial="true">Objetos que se enviarán a la Zona Nexo</string>
 	<string id="b_af_2">b_af_2</string>
 	<string id="b_ah_1">b_ah_1</string>
 	<string id="b_ai_1">b_ai_1</string>
