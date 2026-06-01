@@ -27,7 +27,8 @@
 	<string id="dc_ac_4">dc_ac_4</string>
 	<string id="dc_ae_2">dc_ae_2</string>
 	<string id="dc_af_2">dc_af_2</string>
-	<string id="o_abb_1">Has salido de Pokémon Dream World. Puedes despertar a tu Pokémon mediante la función Sincronizar Juego.</string>
+	<string id="o_abb_1" unofficial="true">Has salido de Pokémon Dream World.
+Puedes despertar a tu Pokémon mediante la función Sincronizar Juego.</string>
 	<string id="o_az_1">o_az_1</string>
 	<string id="pg_ade_1">pg_ade_1</string>
 	<string id="pg_ade_2">pg_ade_2</string>

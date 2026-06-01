@@ -25,10 +25,10 @@ Te quedan: [画面数]</string>
 	<string id="y_aa_8">y_aa_8</string>
 	<string id="y_aa_9">y_aa_9</string>
 	<string id="y_ad_1">¡Es un [ポケモン名]!</string>
-	<string id="y_ad_10">y_ad_10</string>
-	<string id="y_ad_11">y_ad_11</string>
-	<string id="y_ad_13">y_ad_13</string>
-	<string id="y_ad_14">y_ad_14</string>
+	<string id="y_ad_10">[ポケモン名] está buscando a otro Pokémon.</string>
+	<string id="y_ad_11">¿Quieres jugar a Pokémon perdido con [ポケモン名]?</string>
+	<string id="y_ad_13">[ポケモン名] quiere jugar con Wailord.</string>
+	<string id="y_ad_14">¿Quieres jugar a Diversión a chorro con [ポケモン名]?</string>
 	<string id="y_ad_15">[ポケモン名]  tiene sed.</string>
 	<string id="y_ad_16">¿Quieres darle una bebida a [ポケモン名] ?</string>
 	<string id="y_ad_18">y_ad_18</string>
@@ -49,7 +49,7 @@ Te quedan: [画面数]</string>
 	<string id="y_ad_31">¿Quieres darle una bebida a [ポケモン名] ?</string>
 	<string id="y_ad_32">y_ad_32</string>
 	<string id="y_ad_33">y_ad_33</string>
-	<string id="y_ad_4">y_ad_4</string>
+	<string id="y_ad_4">¿Quieres jugar a Maestro heladero con [ポケモン名]?</string>
 	<string id="y_ad_7">[ポケモン名] quiere volvar por el cielo.</string>
 	<string id="y_ad_8">¿Quieres jugar a Carrera aérea con [ポケモン名]?</string>
 	<string id="y_af_1">Te has hecho amigo de  [ポケモン名].</string>
@@ -63,23 +63,23 @@ Te quedan: [画面数]</string>
 	<string id="y_af_7">¡[ポケモン名] está contento!</string>
 	<string id="y_af_8">y_af_8</string>
 	<string id="y_af_9">y_af_9</string>
-	<string id="y_ag_1">y_ag_1</string>
+	<string id="y_ag_1" unofficial="true">No has tenido exito en Maestro heladero.</string>
 	<string id="y_ag_10">y_ag_10</string>
 	<string id="y_ag_11">y_ag_11</string>
 	<string id="y_ag_12">y_ag_12</string>
 	<string id="y_ag_13">y_ag_13</string>
 	<string id="y_ag_14">y_ag_14</string>
 	<string id="y_ag_15">y_ag_15</string>
-	<string id="y_ag_16">y_ag_16</string>
+	<string id="y_ag_16" unofficial="true">No has tenido exito en Dulces helados.</string>
 	<string id="y_ag_17">y_ag_17</string>
 	<string id="y_ag_18">y_ag_18</string>
 	<string id="y_ag_19">y_ag_19</string>
 	<string id="y_ag_2">y_ag_2</string>
-	<string id="y_ag_3">y_ag_3</string>
+	<string id="y_ag_3">No pudiste llegar a la meta.</string>
 	<string id="y_ag_4">y_ag_4</string>
-	<string id="y_ag_5">y_ag_5</string>
+	<string id="y_ag_5">No has tenido exito en Pokémon perdido.</string>
 	<string id="y_ag_6">y_ag_6</string>
-	<string id="y_ag_7">y_ag_7</string>
+	<string id="y_ag_7">No has tenido exito en Diversión a chorro.</string>
 	<string id="y_ag_8">y_ag_8</string>
 	<string id="y_ag_9">y_ag_9</string>
 	<string id="y_ah_1">y_ah_1</string>

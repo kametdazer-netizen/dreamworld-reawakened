@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data locale="es">
 	<string id="h_ca_1">Casa de [PGLニックネーム]</string>
-	<string id="h_ca_7">Entrar.</string>
+	<string id="h_ca_7">Entrar</string>
 	<string id="h_ca_8">Felpudo</string>
 	<string id="fr_aa_6">Ver mapa de sueñamigos</string>
 	<string id="h_ca_2">Ver felpudo</string>
 	<string id="fr_aa_4">Entrar</string>
-	<string id="new_home_3">new_home_3</string>
+	<string id="new_home_3" unofficial="true">No hay información disponible.</string>
 	<string id="m_aa_1">Felpudo</string>
 	<string id="m_aa_2">Ver más</string>
 	<string id="m_af_1">Ver detalles</string>
 	<string id="m_af_2">m_af_2</string>
-	<string id="m_af_3">m_af_3</string>
+	<string id="m_af_3" unofficial="true">Ver visitantes.</string>
 	<string id="m_af_4">Fecha</string>
 	<string id="m_af_5">Pokémon</string>
 	<string id="m_af_6">Apodo del Pokémon</string>
@@ -20,9 +20,9 @@
 	<string id="m_af_11">Apodo</string>
 	<string id="m_af_12">Apodo de PGL</string>
 	<string id="s_aa_1">Expositor de [arg0]</string>
-	<string id="h_cb_1">Volver a mi casa.</string>
+	<string id="h_cb_1">Volver a mi casa</string>
 	<string id="h_cb_2">Puente Onírico</string>
-	<string id="h_cb_3">Ir a Isla Ensueño.</string>
+	<string id="h_cb_3">Ir a Isla Ensueño</string>
 	<string id="h_cc_1">¿Ir a Isla Ensueño?</string>
 	<string id="h_cc_2">Sí</string>
 	<string id="h_cc_3">No</string>
@@ -45,12 +45,15 @@
 	<string id="b_aa_4">Enviar</string>
 	<string id="b_aa_5">b_aa_5</string>
 	<string id="b_aa_6">Cofre</string>
-	<string id="b_af_2">b_af_2</string>
+	<string id="b_af_2">Para recibir los objetos transferidos, haz clic en "Salir de Pokémon
+Dream World", despierta los Pokémon mediante Sincronizar Juego,
+ve al Bosque Nexo y habla con el joven de la entrada.</string>
 	<string id="p_aa_1">Tablón de Pokémon amigos</string>
-	<string id="p_ah_1">p_ah_1</string>
-	<string id="p_aa_4">p_aa_4</string>
-	<string id="p_aa_5">p_aa_5</string>
-	<string id="p_aa_6">p_aa_6</string>
+	<string id="p_ah_1" unofficial="true">Ningún Pokémon se ha unido a ti.</string>
+	<string id="p_aa_4" unofficial="true">POKÉMON QUE QUIERAS
+LLEVAR</string>
+	<string id="p_aa_5">Pokémon que te has llevado</string>
+	<string id="p_aa_6">Pokémon que irán contigo</string>
 	<string id="i_ab_3">Catálogo Ensueño</string>
 	<string id="h_ea_1">Redecorar</string>
 	<string id="h_ea_2">Cofre</string>
