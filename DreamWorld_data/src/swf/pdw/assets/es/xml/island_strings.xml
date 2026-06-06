@@ -31,21 +31,21 @@ Te quedan: [画面数]</string>
 	<string id="y_ad_14">¿Quieres jugar a Diversión a chorro con [ポケモン名]?</string>
 	<string id="y_ad_15">[ポケモン名]  tiene sed.</string>
 	<string id="y_ad_16">¿Quieres darle una bebida a [ポケモン名] ?</string>
-	<string id="y_ad_18">y_ad_18</string>
-	<string id="y_ad_19">y_ad_19</string>
-	<string id="y_ad_2">y_ad_2</string>
-	<string id="y_ad_20">y_ad_20</string>
-	<string id="y_ad_21">y_ad_21</string>
-	<string id="y_ad_22">y_ad_22</string>
-	<string id="y_ad_23">y_ad_23</string>
-	<string id="y_ad_24">y_ad_24</string>
-	<string id="y_ad_25">y_ad_25</string>
-	<string id="y_ad_26">y_ad_26</string>
-	<string id="y_ad_27">y_ad_27</string>
+	<string id="y_ad_18" unofficial="true">[ポケモン名] quiere probar su valor.</string>
+	<string id="y_ad_19" unofficial="true">¿Jugar a Apaga Velas con [ポケモン名]?</string>
+	<string id="y_ad_2" unofficial="true">[ポケモン名] está hambriento.</string>
+	<string id="y_ad_20" unofficial="true">[ポケモン名] quiere recolectar gemas.</string>
+	<string id="y_ad_21" unofficial="true">¿Buscar gemas con [ポケモン名]?</string>
+	<string id="y_ad_22" unofficial="true">[ポケモン名] quiere jugar en el hielo.</string>
+	<string id="y_ad_23" unofficial="true">¿Jugar a Dulces helados con [ポケモン名]?</string>
+	<string id="y_ad_24" unofficial="true">[ポケモン名] quiere jugar en el lago.</string>
+	<string id="y_ad_25" unofficial="true">¿Quieres surfear con [ポケモン名]?</string>
+	<string id="y_ad_26">A [ポケモン名] le llama la atención ese cofre.</string>
+	<string id="y_ad_27">¡Ayuda a [ポケモン名]!</string>
 	<string id="y_ad_28">y_ad_28</string>
 	<string id="y_ad_29">y_ad_29</string>
 	<string id="y_ad_3">y_ad_3</string>
-	<string id="y_ad_30">[ポケモン名]  tiene sed.</string>
+	<string id="y_ad_30">[ポケモン名] tiene sed.</string>
 	<string id="y_ad_31">¿Quieres darle una bebida a [ポケモン名] ?</string>
 	<string id="y_ad_32">y_ad_32</string>
 	<string id="y_ad_33">y_ad_33</string>
@@ -70,19 +70,19 @@ Te quedan: [画面数]</string>
 	<string id="y_ag_13">y_ag_13</string>
 	<string id="y_ag_14">y_ag_14</string>
 	<string id="y_ag_15">y_ag_15</string>
-	<string id="y_ag_16" unofficial="true">No has tenido exito en Dulces helados.</string>
+	<string id="y_ag_16" unofficial="true">No conseguiste los dulces.</string>
 	<string id="y_ag_17">y_ag_17</string>
 	<string id="y_ag_18">y_ag_18</string>
 	<string id="y_ag_19">y_ag_19</string>
 	<string id="y_ag_2">y_ag_2</string>
 	<string id="y_ag_3">No pudiste llegar a la meta.</string>
 	<string id="y_ag_4">y_ag_4</string>
-	<string id="y_ag_5">No has tenido exito en Pokémon perdido.</string>
+	<string id="y_ag_5" unofficial="true">No lograste encontrar al Pokémon.</string>
 	<string id="y_ag_6">y_ag_6</string>
-	<string id="y_ag_7">No has tenido exito en Diversión a chorro.</string>
+	<string id="y_ag_7" unofficial="true">Todos tus Pokémon cayeron al agua.</string>
 	<string id="y_ag_8">y_ag_8</string>
-	<string id="y_ag_9">y_ag_9</string>
-	<string id="y_ah_1">y_ah_1</string>
+	<string id="y_ag_9" unofficial="true">[ポケモン名] está decepcionado.</string>
+	<string id="y_ah_1" unofficial="true">[ポケモン名] ha desaparecido.</string>
 	<string id="y_ai_1">Has encontrado [道具名].</string>
 	<string id="y_aj_1">Has guardado [道具名] en el cofre.</string>
 	<string id="y_al_1">y_al_1</string>
